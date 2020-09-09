@@ -18,19 +18,28 @@
  * Follow up:
  *
  * Coud you solve it without converting the integer to a string?
+ *
+ * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
  */
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
-        if (x < 0) return false;
-        if (x == 0) return true;
+        if (x < 0) {
+            return false;
+        }
+        if (x == 0) {
+            return true;
+        }
         int result = 0, temp = 0, sum = x;
         while (sum != 0){
             temp = sum%10;
             result = result*10 + temp;
             sum = sum/10;
         }
-        if (result == x) return true;
-        else return false;
+        if (result == x) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static void main(String[] args) {

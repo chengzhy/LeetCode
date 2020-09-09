@@ -10,10 +10,14 @@
  *
  * Input: "cbbd"
  * Output: "bb"
+ *
+ * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
  */
 public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
-        if (s.length() == 0) return s;
+        if (s.length() == 0) {
+            return s;
+        }
         char[] temp = new char[2*s.length()+4];
         int[] len = new int[2*s.length()+4];
 
@@ -30,8 +34,12 @@ public class LongestPalindromicSubstring {
         for (int i=1; i<=2*s.length()+1; i++){
             if (mx > i){
                 len[i] = Math.min(mx-i, len[2*po-i]);//在Len[j]和mx-i中取个小
-            }else len[i] = 1;
-            while (temp[i-len[i]] == temp[i+len[i]]) len[i]++;
+            } else {
+                len[i] = 1;
+            }
+            while (temp[i-len[i]] == temp[i+len[i]]) {
+                len[i]++;
+            }
             if (len[i]+i > mx){//若新计算的回文串右端点位置大于mx，要更新po和mx的值
                 mx = len[i] + i;
                 po = i;

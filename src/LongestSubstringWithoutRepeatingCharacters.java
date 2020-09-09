@@ -20,6 +20,8 @@ import java.util.Map;
  * Output: 3
  * Explanation: The answer is "wke", with the length of 3.
  *              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+ *
+ * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
@@ -47,8 +49,9 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return max;*/
         int lookup[] =  new int[128], i, len = s.length(), count, max;
         char tmp;
-        if(len == 0)
+        if(len == 0) {
             return 0;
+        }
         max = 0;
         count = 0;//索引，标记最新重复的位置
         for(i = 0; i < 128; i++){
