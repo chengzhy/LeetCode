@@ -20,26 +20,26 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class AddTwoNumbers {
+public class P2_AddTwoNumbers {
     int val;
-    AddTwoNumbers next;
-    AddTwoNumbers(int x) { val = x; }
+    P2_AddTwoNumbers next;
+    P2_AddTwoNumbers(int x) { val = x; }
 
     public static void main(String[] args) {
-        AddTwoNumbers l1 = new AddTwoNumbers(1);
+        P2_AddTwoNumbers l1 = new P2_AddTwoNumbers(1);
         /*l1.next = new AddTwoNumbers(4);
         l1.next.next = new AddTwoNumbers(3);*/
-        AddTwoNumbers l2 = new AddTwoNumbers(9);
-        l2.next = new AddTwoNumbers(9);
+        P2_AddTwoNumbers l2 = new P2_AddTwoNumbers(9);
+        l2.next = new P2_AddTwoNumbers(9);
 //        l2.next.next = new AddTwoNumbers(4);
         Solution solution = new Solution();
-        AddTwoNumbers result = solution.addTwoNumbers(l1, l2);
+        P2_AddTwoNumbers result = solution.addTwoNumbers(l1, l2);
     }
 }
 class Solution {
-    public AddTwoNumbers addTwoNumbers(AddTwoNumbers l1, AddTwoNumbers l2) {
-        AddTwoNumbers result = new AddTwoNumbers(0);
-        AddTwoNumbers temp = result;
+    public P2_AddTwoNumbers addTwoNumbers(P2_AddTwoNumbers l1, P2_AddTwoNumbers l2) {
+        P2_AddTwoNumbers result = new P2_AddTwoNumbers(0);
+        P2_AddTwoNumbers temp = result;
         int a = 0;
         while (l1 != null && l2 != null){
             int sum = l1.val + l2.val + a;
@@ -53,18 +53,18 @@ class Solution {
             l1 = l1.next;
             l2 = l2.next;
             if (l1 != null && l2 != null){
-                temp.next = new AddTwoNumbers(0);
+                temp.next = new P2_AddTwoNumbers(0);
                 temp = temp.next;
             }
         }
         while (l1 != null){
             int sum = l1.val + a;
             if (sum > 9){
-                temp.next = new AddTwoNumbers(sum%10);
+                temp.next = new P2_AddTwoNumbers(sum%10);
                 temp = temp.next;
                 a = sum/10;
             } else{
-                temp.next = new AddTwoNumbers(sum);
+                temp.next = new P2_AddTwoNumbers(sum);
                 temp = temp.next;
                 a = 0;
             }
@@ -73,18 +73,18 @@ class Solution {
         while (l2 != null){
             int sum = l2.val + a;
             if (sum > 9){
-                temp.next = new AddTwoNumbers(sum%10);
+                temp.next = new P2_AddTwoNumbers(sum%10);
                 temp = temp.next;
                 a = sum/10;
             } else{
-                temp.next = new AddTwoNumbers(sum);
+                temp.next = new P2_AddTwoNumbers(sum);
                 temp = temp.next;
                 a = 0;
             }
             l2 = l2.next;
         }
         if (a > 0){
-            temp.next = new AddTwoNumbers(a);
+            temp.next = new P2_AddTwoNumbers(a);
         }
         return result;
     }

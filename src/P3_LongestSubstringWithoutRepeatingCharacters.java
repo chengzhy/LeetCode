@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Given a string, find the length of the longest substring without repeating characters.
  *
@@ -23,7 +20,7 @@ import java.util.Map;
  *
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
  */
-public class LongestSubstringWithoutRepeatingCharacters {
+public class P3_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         /**
          * 慢
@@ -69,7 +66,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     public static void main(String[] args) {
-        LongestSubstringWithoutRepeatingCharacters l = new LongestSubstringWithoutRepeatingCharacters();
+        P3_LongestSubstringWithoutRepeatingCharacters l = new P3_LongestSubstringWithoutRepeatingCharacters();
         String s = "loddktdji";
         System.out.println(l.lengthOfLongestSubstring(s));
     }

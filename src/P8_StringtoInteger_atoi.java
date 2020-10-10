@@ -52,7 +52,7 @@
  * 本题中的空白字符只包括空格字符 ' ' 。
  * 假设我们的环境只能存储 32 位大小的有符号整数，那么其数值范围为 [−231,  231 − 1]。如果数值超过这个范围，请返回  INT_MAX (231 − 1) 或 INT_MIN (−231) 。
  */
-public class StringtoInteger_atoi {
+public class P8_StringtoInteger_atoi {
     public int myAtoi(String str) {
         long result = 0;
         int arraycount=-1, flag=0;
@@ -97,7 +97,7 @@ public class StringtoInteger_atoi {
     }
 
     public static void main(String[] args) {
-        StringtoInteger_atoi s = new StringtoInteger_atoi();
+        P8_StringtoInteger_atoi s = new P8_StringtoInteger_atoi();
         System.out.println(s.myAtoi("18446744073709551617"));
     }
 }

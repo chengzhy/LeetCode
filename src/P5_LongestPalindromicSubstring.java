@@ -13,7 +13,7 @@
  *
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
  */
-public class LongestPalindromicSubstring {
+public class P5_LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         if (s.length() == 0) {
             return s;
@@ -62,7 +62,7 @@ public class LongestPalindromicSubstring {
     }
 
     public static void main(String[] args) {
-        LongestPalindromicSubstring l = new LongestPalindromicSubstring();
+        P5_LongestPalindromicSubstring l = new P5_LongestPalindromicSubstring();
         String result = l.longestPalindrome("babab");
         System.out.println(result);
     }

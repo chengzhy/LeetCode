@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
  *
@@ -36,7 +33,7 @@ import java.util.Map;
  * 请你实现这个将字符串进行指定行数变换的函数：
  * string convert(string s, int numRows);
  */
-public class ZigZagConversion {
+public class P6_ZigZagConversion {
     public String convert(String s, int numRows) {
         /**
          * 做法复杂
@@ -112,7 +109,7 @@ public class ZigZagConversion {
     }
 
     public static void main(String[] args) {
-        ZigZagConversion z = new ZigZagConversion();
+        P6_ZigZagConversion z = new P6_ZigZagConversion();
         System.out.println(z.convert("paypalishiring", 4));
     }
 }

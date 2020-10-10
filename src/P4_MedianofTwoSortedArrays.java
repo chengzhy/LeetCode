@@ -1,5 +1,3 @@
-import java.util.Vector;
-
 /**
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  *
@@ -24,7 +22,7 @@ import java.util.Vector;
  * 请你找出这两个正序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。
  * 你可以假设 nums1 和 nums2 不会同时为空。
  */
-public class MedianofTwoSortedArrays {
+public class P4_MedianofTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         /**
          * 时间复杂度O((m+n)/2)
@@ -89,7 +87,7 @@ public class MedianofTwoSortedArrays {
     }
 
     public static void main(String[] args) {
-        MedianofTwoSortedArrays m = new MedianofTwoSortedArrays();
+        P4_MedianofTwoSortedArrays m = new P4_MedianofTwoSortedArrays();
         int[] num1 = {1,9,11,13};
         int[] num2 = {4,5,6,10};
         System.out.println(m.findMedianSortedArrays(num1, num2));

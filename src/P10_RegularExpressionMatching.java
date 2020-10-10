@@ -52,7 +52,7 @@
  * s 可能为空，且只包含从 a-z 的小写字母。
  * p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 *。
  */
-public class RegularExpressionMatching {
+public class P10_RegularExpressionMatching {
     public boolean isMatch(String s, String p) {
         if (s.equals(p)) {
             return true;
@@ -93,7 +93,7 @@ public class RegularExpressionMatching {
     }
 
     public static void main(String[] args) {
-        RegularExpressionMatching r = new RegularExpressionMatching();
+        P10_RegularExpressionMatching r = new P10_RegularExpressionMatching();
         System.out.println(r.isMatch("aab", "c*a*b*"));
     }
 }

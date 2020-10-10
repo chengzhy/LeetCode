@@ -21,7 +21,7 @@
  *
  * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
  */
-public class PalindromeNumber {
+public class P9_PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
@@ -43,7 +43,7 @@ public class PalindromeNumber {
     }
 
     public static void main(String[] args) {
-        PalindromeNumber p = new PalindromeNumber();
+        P9_PalindromeNumber p = new P9_PalindromeNumber();
         System.out.println(p.isPalindrome(1221));
     }
 }

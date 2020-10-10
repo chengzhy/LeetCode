@@ -18,7 +18,7 @@
  *
  * 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
  */
-public class ReverseInteger {
+public class P7_ReverseInteger {
     public int reverse(int x) {
         long result = 0;
         while(x!=0){
@@ -33,7 +33,7 @@ public class ReverseInteger {
     }
 
     public static void main(String[] args) {
-        ReverseInteger r = new ReverseInteger();
+        P7_ReverseInteger r = new P7_ReverseInteger();
         System.out.println(r.reverse(1200));
     }
 }
