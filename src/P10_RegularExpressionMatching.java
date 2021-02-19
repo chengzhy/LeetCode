@@ -1,4 +1,6 @@
 /**
+ * @description 正则表达式匹配
+ *
  * Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
  *
  * '.' Matches any single character.
