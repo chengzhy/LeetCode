@@ -64,8 +64,9 @@ public class P13_RomanToInteger {
         /*int values[] = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
         String reps[] = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
         int num = 0;
-        for(int i=0; i<13; i++){
-            while(s.startsWith(reps[i])){
+        // 参照题12，反向逻辑
+        for (int i=0; i<13; i++) {
+            while (s.startsWith(reps[i])) {
                 num += values[i];
                 s = s.substring(s.indexOf(reps[i]) + reps[i].length());
             }
@@ -78,9 +79,9 @@ public class P13_RomanToInteger {
          */
         int sum = 0;
         int preNum = getValue(s.charAt(0));
-        for(int i = 1;i < s.length(); i ++) {
+        for (int i = 1;i < s.length(); i ++) {
             int num = getValue(s.charAt(i));
-            if(preNum < num) {
+            if (preNum < num) {
                 sum -= preNum;
             } else {
                 sum += preNum;
