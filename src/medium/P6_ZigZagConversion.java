@@ -1,3 +1,5 @@
+package medium;
+
 /**
  * @description Z字形变换
  *

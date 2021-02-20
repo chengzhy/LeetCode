@@ -1,3 +1,5 @@
+package easy;
+
 /**
  * @description 回文数
  *
