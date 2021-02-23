@@ -42,7 +42,10 @@ public class P19_RemoveNthNodeFromEndOfList {
     public ListNode p;
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        ListNode temp = head;
+        /**
+         * 0ms
+         */
+        /*ListNode temp = head;
         total++;
         if (temp.next != null) {
             temp.next = removeNthFromEnd(temp.next, n);
@@ -62,6 +65,28 @@ public class P19_RemoveNthNodeFromEndOfList {
         // 倒数第n个为正数第1个时，返回临时指针
         if (total == count && total == n) {
             temp = p;
+        }
+        return temp;*/
+
+        /**
+         * 1ms
+         */
+        ListNode temp = head;
+        total++;
+        if (temp.next != null) {
+            temp.next = removeNthFromEnd(temp.next, n);
+            count++;
+            if (count == n+1) {
+                // 倒数第n+1个指向临时指针
+                temp.next = temp.next.next;
+            }
+        } else {
+            // 尾指针，开始计数
+            count = 1;
+        }
+        // 倒数第n个为正数第1个时，返回临时指针
+        if (total == count && total == n) {
+            temp = temp.next;
         }
         return temp;
     }
