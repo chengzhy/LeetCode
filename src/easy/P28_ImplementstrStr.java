@@ -26,7 +26,7 @@ public class P28_ImplementstrStr {
 
     public int strStr(String haystack, String needle) {
         char[] source = haystack.toCharArray(), target = needle.toCharArray();
-        int sourceCount = source.length, targetCount = target.length;
+        int sourceCount = haystack.length(), targetCount = needle.length();
         // 如果haystack为空
         if (sourceCount == 0) {
             // 如果needle为空，返回0；否则返回-1
