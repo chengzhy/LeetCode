@@ -69,9 +69,4 @@ public class P3_LongestSubstringWithoutRepeatingCharacters {
         return max;
     }
 
-    public static void main(String[] args) {
-        P3_LongestSubstringWithoutRepeatingCharacters l = new P3_LongestSubstringWithoutRepeatingCharacters();
-        String s = "loddktdji";
-        System.out.println(l.lengthOfLongestSubstring(s));
-    }
 }

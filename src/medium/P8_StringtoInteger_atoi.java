@@ -100,8 +100,4 @@ public class P8_StringtoInteger_atoi {
         return (int)result;
     }
 
-    public static void main(String[] args) {
-        P8_StringtoInteger_atoi s = new P8_StringtoInteger_atoi();
-        System.out.println(s.myAtoi("18446744073709551617"));
-    }
 }

@@ -36,8 +36,4 @@ public class P7_ReverseInteger {
         }
     }
 
-    public static void main(String[] args) {
-        P7_ReverseInteger r = new P7_ReverseInteger();
-        System.out.println(r.reverse(1200));
-    }
 }

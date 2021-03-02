@@ -65,9 +65,4 @@ public class P5_LongestPalindromicSubstring {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        P5_LongestPalindromicSubstring l = new P5_LongestPalindromicSubstring();
-        String result = l.longestPalindrome("babab");
-        System.out.println(result);
-    }
 }

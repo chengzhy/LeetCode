@@ -90,10 +90,4 @@ public class P4_MedianofTwoSortedArrays {
         }
     }
 
-    public static void main(String[] args) {
-        P4_MedianofTwoSortedArrays m = new P4_MedianofTwoSortedArrays();
-        int[] num1 = {1,9,11,13};
-        int[] num2 = {4,5,6,10};
-        System.out.println(m.findMedianSortedArrays(num1, num2));
-    }
 }

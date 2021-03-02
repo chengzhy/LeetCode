@@ -112,8 +112,4 @@ public class P6_ZigZagConversion {
         return new String(chars);
     }
 
-    public static void main(String[] args) {
-        P6_ZigZagConversion z = new P6_ZigZagConversion();
-        System.out.println(z.convert("paypalishiring", 4));
-    }
 }

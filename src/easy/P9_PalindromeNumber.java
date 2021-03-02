@@ -46,8 +46,4 @@ public class P9_PalindromeNumber {
         }
     }
 
-    public static void main(String[] args) {
-        P9_PalindromeNumber p = new P9_PalindromeNumber();
-        System.out.println(p.isPalindrome(1221));
-    }
 }

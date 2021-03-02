@@ -96,8 +96,4 @@ public class P10_RegularExpressionMatching {
         return dp[sArr.length][pArr.length];
     }
 
-    public static void main(String[] args) {
-        P10_RegularExpressionMatching r = new P10_RegularExpressionMatching();
-        System.out.println(r.isMatch("aab", "c*a*b*"));
-    }
 }

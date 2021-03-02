@@ -26,17 +26,6 @@ public class P2_AddTwoNumbers {
     int val;
     P2_AddTwoNumbers next;
     P2_AddTwoNumbers(int x) { val = x; }
-
-    public static void main(String[] args) {
-        P2_AddTwoNumbers l1 = new P2_AddTwoNumbers(1);
-        /*l1.next = new AddTwoNumbers(4);
-        l1.next.next = new AddTwoNumbers(3);*/
-        P2_AddTwoNumbers l2 = new P2_AddTwoNumbers(9);
-        l2.next = new P2_AddTwoNumbers(9);
-//        l2.next.next = new AddTwoNumbers(4);
-        Solution solution = new Solution();
-        P2_AddTwoNumbers result = solution.addTwoNumbers(l1, l2);
-    }
 }
 class Solution {
     public P2_AddTwoNumbers addTwoNumbers(P2_AddTwoNumbers l1, P2_AddTwoNumbers l2) {
