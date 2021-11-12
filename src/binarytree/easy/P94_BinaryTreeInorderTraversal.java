@@ -1,8 +1,6 @@
 package binarytree.easy;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * 二叉树的中序遍历
@@ -50,8 +48,25 @@ import java.util.Objects;
 public class P94_BinaryTreeInorderTraversal {
 
     public List<Integer> inorderTraversal(TreeNode root) {
+        if (Objects.isNull(root)) {
+            return Collections.emptyList();
+        }
         List<Integer> result = new ArrayList<>();
-        dfs(root, result);
+        /**
+         * 来个非递归
+         */
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        while (Objects.nonNull(root) || !stack.isEmpty()) {
+            if (Objects.nonNull(root)) {
+                stack.push(root);
+                root = root.left;
+            } else {
+                TreeNode treeNode = stack.pop();
+                result.add(treeNode.val);
+                root = treeNode.right;
+            }
+        }
+        // dfs(root, result);
         return result;
     }
 
