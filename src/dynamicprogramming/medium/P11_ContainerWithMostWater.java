@@ -1,4 +1,4 @@
-package twopointers.medium;
+package dynamicprogramming.medium;
 
 /**
  * @description 盛最多水的容器
