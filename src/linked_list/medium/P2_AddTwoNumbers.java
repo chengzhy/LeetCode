@@ -23,14 +23,10 @@ package linked_list.medium; /**
  * }
  */
 public class P2_AddTwoNumbers {
-    int val;
-    P2_AddTwoNumbers next;
-    P2_AddTwoNumbers(int x) { val = x; }
-}
-class Solution {
-    public P2_AddTwoNumbers addTwoNumbers(P2_AddTwoNumbers l1, P2_AddTwoNumbers l2) {
-        P2_AddTwoNumbers result = new P2_AddTwoNumbers(0);
-        P2_AddTwoNumbers temp = result;
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode result = new ListNode(0);
+        ListNode temp = result;
         int a = 0;
         while (l1 != null && l2 != null){
             int sum = l1.val + l2.val + a;
@@ -44,18 +40,18 @@ class Solution {
             l1 = l1.next;
             l2 = l2.next;
             if (l1 != null && l2 != null){
-                temp.next = new P2_AddTwoNumbers(0);
+                temp.next = new ListNode(0);
                 temp = temp.next;
             }
         }
         while (l1 != null){
             int sum = l1.val + a;
             if (sum > 9){
-                temp.next = new P2_AddTwoNumbers(sum%10);
+                temp.next = new ListNode(sum%10);
                 temp = temp.next;
                 a = sum/10;
             } else{
-                temp.next = new P2_AddTwoNumbers(sum);
+                temp.next = new ListNode(sum);
                 temp = temp.next;
                 a = 0;
             }
@@ -64,19 +60,33 @@ class Solution {
         while (l2 != null){
             int sum = l2.val + a;
             if (sum > 9){
-                temp.next = new P2_AddTwoNumbers(sum%10);
+                temp.next = new ListNode(sum%10);
                 temp = temp.next;
                 a = sum/10;
             } else{
-                temp.next = new P2_AddTwoNumbers(sum);
+                temp.next = new ListNode(sum);
                 temp = temp.next;
                 a = 0;
             }
             l2 = l2.next;
         }
         if (a > 0){
-            temp.next = new P2_AddTwoNumbers(a);
+            temp.next = new ListNode(a);
         }
         return result;
     }
+
+    public static class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) {
+            this.val = val;
+        }
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
 }
