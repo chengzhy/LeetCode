@@ -1,4 +1,4 @@
-package binary_tree.easy;
+package depth_first_search.easy;
 
 import java.util.Objects;
 
