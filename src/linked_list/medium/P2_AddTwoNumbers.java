@@ -1,5 +1,7 @@
-package linked_list.medium; /**
- * @description 两数相加
+package linked_list.medium;
+
+/**
+ * 两数相加
  *
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
  *
@@ -21,6 +23,9 @@ package linked_list.medium; /**
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P2_AddTwoNumbers {
 

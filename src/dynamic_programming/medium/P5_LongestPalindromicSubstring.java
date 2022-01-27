@@ -1,7 +1,7 @@
 package dynamic_programming.medium;
 
 /**
- * @description 最长回文子串
+ * 最长回文子串
  *
  * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
  *
@@ -16,6 +16,9 @@ package dynamic_programming.medium;
  * Output: "bb"
  *
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P5_LongestPalindromicSubstring {
     public String longestPalindrome(String s) {

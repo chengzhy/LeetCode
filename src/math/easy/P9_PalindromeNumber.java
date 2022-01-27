@@ -1,7 +1,7 @@
 package math.easy;
 
 /**
- * @description 回文数
+ * 回文数
  *
  * Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
  *
@@ -24,6 +24,9 @@ package math.easy;
  * Coud you solve it without converting the integer to a string?
  *
  * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P9_PalindromeNumber {
     public boolean isPalindrome(int x) {

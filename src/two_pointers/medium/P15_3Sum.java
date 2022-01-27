@@ -3,7 +3,7 @@ package two_pointers.medium;
 import java.util.*;
 
 /**
- * @description 三数之和
+ * 三数之和
  *
  * 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
  *
@@ -30,6 +30,8 @@ import java.util.*;
  * 0 <= nums.length <= 3000
  * -105 <= nums[i] <= 105
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P15_3Sum {
 

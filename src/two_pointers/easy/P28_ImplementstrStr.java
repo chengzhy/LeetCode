@@ -1,7 +1,7 @@
 package two_pointers.easy;
 
 /**
- * @description 实现 strStr()
+ * 实现 strStr()
  *
  * 实现 strStr() 函数。
  *
@@ -21,6 +21,8 @@ package two_pointers.easy;
  *
  * 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P28_ImplementstrStr {
 

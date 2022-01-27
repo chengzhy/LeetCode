@@ -1,7 +1,7 @@
 package array.easy;
 
 /**
- * @description 移除元素
+ * 移除元素
  *
  * 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
  *
@@ -47,6 +47,8 @@ package array.easy;
  * 0 <= nums[i] <= 50
  * 0 <= val <= 100
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P27_RemoveElement {
 

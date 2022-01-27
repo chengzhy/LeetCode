@@ -1,4 +1,4 @@
-package linked_list.medium;
+package two_pointers.medium;
 
 import java.util.Objects;
 

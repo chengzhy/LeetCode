@@ -1,7 +1,7 @@
 package linked_list.hard;
 
 /**
- * @description K 个一组翻转链表
+ * K 个一组翻转链表
  *
  * 给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
  *
@@ -26,6 +26,8 @@ package linked_list.hard;
  * 你的算法只能使用常数的额外空间。
  * 你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P25_ReverseNodesInKGroup {
 

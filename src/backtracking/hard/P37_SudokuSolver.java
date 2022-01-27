@@ -1,7 +1,7 @@
 package backtracking.hard;
 
 /**
- * @description 解数独
+ * 解数独
  *
  * 编写一个程序，通过填充空格来解决数独问题。
  *
@@ -26,6 +26,8 @@ package backtracking.hard;
  * 你可以假设给定的数独只有唯一解。
  * 给定数独永远是 9x9 形式的。
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P37_SudokuSolver {
     /**

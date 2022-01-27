@@ -1,7 +1,7 @@
 package divide_and_conquer.hard;
 
 /**
- * @description 合并K个升序链表
+ * 合并K个升序链表
  *
  * 给你一个链表数组，每个链表都已经按升序排列。
  *
@@ -40,6 +40,8 @@ package divide_and_conquer.hard;
  * lists[i] 按 升序 排列
  * lists[i].length 的总和不超过 10^4
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P23_MergeKSortedLists {
 

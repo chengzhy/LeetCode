@@ -1,7 +1,7 @@
 package dynamic_programming.medium;
 
 /**
- * @description 盛最多水的容器
+ * 盛最多水的容器
  *
  * Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of the line i is at (i, ai) and (i, 0). Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
  *
@@ -56,6 +56,9 @@ package dynamic_programming.medium;
  * n = height.length
  * 2 <= n <= 3 * 104
  * 0 <= height[i] <= 3 * 104
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P11_ContainerWithMostWater {
 

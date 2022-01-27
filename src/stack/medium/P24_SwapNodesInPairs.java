@@ -1,7 +1,7 @@
 package stack.medium;
 
 /**
- * @description 两两交换链表中的节点
+ * 两两交换链表中的节点
  *
  * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
  *
@@ -32,6 +32,8 @@ package stack.medium;
  *
  * 进阶：你能在不修改链表节点值的情况下解决这个问题吗?（也就是说，仅修改节点本身。）
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P24_SwapNodesInPairs {
 

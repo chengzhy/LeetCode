@@ -1,7 +1,7 @@
 package string.medium;
 
 /**
- * @description Z字形变换
+ * Z字形变换
  *
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
  *
@@ -36,6 +36,9 @@ package string.medium;
  * 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如："LCIRETOESIIGEDHN"。
  * 请你实现这个将字符串进行指定行数变换的函数：
  * string convert(string s, int numRows);
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P6_ZigZagConversion {
     public String convert(String s, int numRows) {

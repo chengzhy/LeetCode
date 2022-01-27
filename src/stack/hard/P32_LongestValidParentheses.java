@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @description 最长有效括号
+ * 最长有效括号
  *
  * 给你一个只包含 '(' 和 ')' 的字符串，找出最长有效（格式正确且连续）括号子串的长度。
  *
@@ -31,6 +31,8 @@ import java.util.Deque;
  * 0 <= s.length <= 3 * 104
  * s[i] 为 '(' 或 ')'
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P32_LongestValidParentheses {
 

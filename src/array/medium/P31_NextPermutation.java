@@ -3,7 +3,7 @@ package array.medium;
 import java.util.Arrays;
 
 /**
- * @description 下一个排列
+ * 下一个排列
  *
  * 实现获取 下一个排列 的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
  *
@@ -36,6 +36,8 @@ import java.util.Arrays;
  * 1 <= nums.length <= 100
  * 0 <= nums[i] <= 100
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P31_NextPermutation {
 

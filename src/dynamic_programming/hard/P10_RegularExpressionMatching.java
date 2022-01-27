@@ -1,7 +1,7 @@
 package dynamic_programming.hard;
 
 /**
- * @description 正则表达式匹配
+ * 正则表达式匹配
  *
  * Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
  *
@@ -55,6 +55,9 @@ package dynamic_programming.hard;
  * 说明:
  * s 可能为空，且只包含从 a-z 的小写字母。
  * p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 *。
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P10_RegularExpressionMatching {
     public boolean isMatch(String s, String p) {

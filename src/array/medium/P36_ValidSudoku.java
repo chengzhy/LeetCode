@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @description 有效的数独
+ * 有效的数独
  *
  * 判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
  *
@@ -58,6 +58,8 @@ import java.util.Map;
  * 给定数独序列只包含数字 1-9 和字符 '.' 。
  * 给定数独永远是 9x9 形式的。
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P36_ValidSudoku {
 

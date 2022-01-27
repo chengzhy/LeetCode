@@ -1,7 +1,7 @@
 package math.easy;
 
 /**
- * @description 整数反转
+ * 整数反转
  *
  * Given a 32-bit signed integer, reverse digits of an integer.
  *
@@ -21,6 +21,9 @@ package math.easy;
  * Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
  *
  * 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P7_ReverseInteger {
     public int reverse(int x) {

@@ -1,7 +1,7 @@
 package string.medium;
 
 /**
- * @description 字符串转换整数(atoi)
+ * 字符串转换整数(atoi)
  *
  * Implement atoi which converts a string to an integer.
  *
@@ -55,6 +55,9 @@ package string.medium;
  * 提示：
  * 本题中的空白字符只包括空格字符 ' ' 。
  * 假设我们的环境只能存储 32 位大小的有符号整数，那么其数值范围为 [−231,  231 − 1]。如果数值超过这个范围，请返回  INT_MAX (231 − 1) 或 INT_MIN (−231) 。
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P8_StringtoInteger_atoi {
     public int myAtoi(String str) {

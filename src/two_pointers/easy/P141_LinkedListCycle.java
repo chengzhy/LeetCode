@@ -1,4 +1,4 @@
-package linked_list.easy;
+package two_pointers.easy;
 
 import java.util.Objects;
 

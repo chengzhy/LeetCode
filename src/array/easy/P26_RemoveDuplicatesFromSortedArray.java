@@ -1,7 +1,7 @@
 package array.easy;
 
 /**
- * @description 删除排序数组中的重复项
+ * 删除排序数组中的重复项
  *
  * 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
  *
@@ -42,6 +42,8 @@ package array.easy;
  *     print(nums[i]);
  * }
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P26_RemoveDuplicatesFromSortedArray {
 

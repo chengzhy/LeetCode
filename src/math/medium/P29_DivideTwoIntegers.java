@@ -1,7 +1,7 @@
 package math.medium;
 
 /**
- * @description 两数相除
+ * 两数相除
  *
  * 给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
  *
@@ -29,6 +29,8 @@ package math.medium;
  * 除数不为 0。
  * 假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−231,  231 − 1]。本题中，如果除法结果溢出，则返回 231 − 1。
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P29_DivideTwoIntegers {
 

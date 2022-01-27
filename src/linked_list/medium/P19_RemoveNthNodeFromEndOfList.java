@@ -1,7 +1,7 @@
 package linked_list.medium;
 
 /**
- * @description 删除链表的倒数第 N 个结点
+ * 删除链表的倒数第 N 个结点
  *
  * 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
  *
@@ -31,6 +31,8 @@ package linked_list.medium;
  * 0 <= Node.val <= 100
  * 1 <= n <= sz
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P19_RemoveNthNodeFromEndOfList {
 

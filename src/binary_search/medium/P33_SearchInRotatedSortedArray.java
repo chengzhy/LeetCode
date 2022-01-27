@@ -1,7 +1,7 @@
 package binary_search.medium;
 
 /**
- * @description 搜索旋转排序数组
+ * 搜索旋转排序数组
  *
  * 整数数组 nums 按升序排列，数组中的值 互不相同 。
  *
@@ -36,6 +36,8 @@ package binary_search.medium;
  *
  * 进阶：你可以设计一个时间复杂度为 O(log n) 的解决方案吗？
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P33_SearchInRotatedSortedArray {
 

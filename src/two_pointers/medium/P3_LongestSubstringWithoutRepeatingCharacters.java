@@ -1,7 +1,7 @@
 package two_pointers.medium;
 
 /**
- * @description 无重复字符的最长子串
+ * 无重复字符的最长子串
  *
  * Given a string, find the length of the longest substring without repeating characters.
  *
@@ -23,6 +23,9 @@ package two_pointers.medium;
  *              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  *
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+ *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  */
 public class P3_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {

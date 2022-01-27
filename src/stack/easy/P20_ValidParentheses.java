@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @description 有效的括号
+ * 有效的括号
  *
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
  *
@@ -41,6 +41,8 @@ import java.util.Deque;
  * 1 <= s.length <= 104
  * s 仅由括号 '()[]{}' 组成
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P20_ValidParentheses {
 

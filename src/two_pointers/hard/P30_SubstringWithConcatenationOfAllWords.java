@@ -3,7 +3,7 @@ package two_pointers.hard;
 import java.util.*;
 
 /**
- * @description 串联所有单词的子串
+ * 串联所有单词的子串
  *
  * 给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。
  *
@@ -27,6 +27,8 @@ import java.util.*;
  *   words = ["word","good","best","word"]
  * 输出：[]
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P30_SubstringWithConcatenationOfAllWords {
 

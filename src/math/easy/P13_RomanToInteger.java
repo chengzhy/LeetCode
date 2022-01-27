@@ -1,7 +1,7 @@
 package math.easy;
 
 /**
- * @description 罗马数字转整数
+ * 罗马数字转整数
  *
  * 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
  *
@@ -57,6 +57,8 @@ package math.easy;
  * IL 和 IM 这样的例子并不符合题目要求，49 应该写作 XLIX，999 应该写作 CMXCIX 。
  * 关于罗马数字的详尽书写规则，可以参考 罗马数字 - Mathematics 。
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P13_RomanToInteger {
 

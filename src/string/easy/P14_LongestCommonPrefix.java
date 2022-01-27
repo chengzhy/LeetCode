@@ -1,7 +1,7 @@
 package string.easy;
 
 /**
- * @description 最长公共前缀
+ * 最长公共前缀
  *
  * 编写一个函数来查找字符串数组中的最长公共前缀。
  *
@@ -26,6 +26,8 @@ package string.easy;
  * 0 <= strs[i].length <= 200
  * strs[i] 仅由小写英文字母组成
  *
+ * @author chengzhy
+ * @date 2022/1/27 16:00
  **/
 public class P14_LongestCommonPrefix {
 
