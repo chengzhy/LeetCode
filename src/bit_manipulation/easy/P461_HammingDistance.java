@@ -41,7 +41,8 @@ public class P461_HammingDistance {
             count += z & 1;
             z >>= 1;
         }
-        return count/**Integer.bitCount(x ^ y)*/;
+        // return Integer.bitCount(x ^ y);
+        return count;
     }
 
 }
