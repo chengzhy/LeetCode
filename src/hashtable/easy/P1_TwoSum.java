@@ -39,7 +39,7 @@ public class P1_TwoSum {
         }
         throw new IllegalArgumentException("No two sum solution");*/
         Map<Integer, Integer> map = new HashMap<>();
-        for(int i = 0; i < nums.length; i++){
+        /*for(int i = 0; i < nums.length; i++){
             map.put(nums[i], i);
         }
         for(int i = 0; i < nums.length; i++){
@@ -48,6 +48,13 @@ public class P1_TwoSum {
                 return new int[] { i, map.get(complement) };
             }
         }
-        throw new IllegalArgumentException("BRUH");
+        throw new IllegalArgumentException("BRUH");*/
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+                return new int[]{i, map.get(target - nums[i])};
+            }
+            map.put(nums[i], i);
+        }
+        return new int[0];
     }
 }
