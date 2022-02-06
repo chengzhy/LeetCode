@@ -38,9 +38,11 @@ public class P6001_SmallestValueOfTheRearrangedNumber {
 
     public long smallestNumber(long num) {
         char[] chars = String.valueOf(Math.abs(num)).toCharArray();
+        // 排序
         Arrays.sort(chars);
         if (num >= 0) {
             if (chars[0] == '0') {
+                // 若开头为0，则去找最近不为0的来互换
                 for (int i = 1; i < chars.length; i++) {
                     if (chars[i] != '0') {
                         chars[0] = chars[i];
@@ -51,6 +53,7 @@ public class P6001_SmallestValueOfTheRearrangedNumber {
             }
             return Long.valueOf(new String(chars));
         } else {
+            // 直接计算
             long result = 0;
             for (int i = 0; i < chars.length; i++) {
                 result += (chars[i] - '0') * Math.pow(10, i);
