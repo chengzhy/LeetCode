@@ -43,7 +43,7 @@ package math.medium;
  * @author chengzhy
  * @date 2022/1/30 11:46
  */
-public class P5994_FindSubstringWithGivenHashValue {
+public class P2156_FindSubstringWithGivenHashValue {
 
     public String subStrHash(String s, int power, int modulo, int k, int hashValue) {
         /**

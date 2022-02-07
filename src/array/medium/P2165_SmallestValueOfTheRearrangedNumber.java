@@ -34,7 +34,7 @@ import java.util.Arrays;
  * @author chengzhy
  * @date 2022/2/6 11:02
  */
-public class P6001_SmallestValueOfTheRearrangedNumber {
+public class P2165_SmallestValueOfTheRearrangedNumber {
 
     public long smallestNumber(long num) {
         char[] chars = String.valueOf(Math.abs(num)).toCharArray();

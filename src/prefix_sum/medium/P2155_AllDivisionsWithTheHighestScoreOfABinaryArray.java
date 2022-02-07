@@ -59,7 +59,7 @@ import java.util.List;
  * @author chengzhy
  * @date 2022/1/30 10:44
  */
-public class P5981_AllDivisionsWithTheHighestScoreOfABinaryArray {
+public class P2155_AllDivisionsWithTheHighestScoreOfABinaryArray {
 
     public List<Integer> maxScoreIndices(int[] nums) {
         List<Integer> result = new ArrayList<>();

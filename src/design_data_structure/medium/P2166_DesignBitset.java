@@ -52,7 +52,7 @@ import java.util.Arrays;
  * @author chengzhy
  * @date 2022/2/7 10:03
  */
-public class P6002_DesignBitset {
+public class P2166_DesignBitset {
 
     public static class Bitset {
         private char[] chars;

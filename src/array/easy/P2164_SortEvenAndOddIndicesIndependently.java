@@ -42,7 +42,7 @@ import java.util.*;
  * @author chengzhy
  * @date 2022/2/6 10:31
  */
-public class P6000_SortEvenAndOddIndicesIndependently {
+public class P2164_SortEvenAndOddIndicesIndependently {
 
     public int[] sortEvenOdd(int[] nums) {
         // odd奇数 even偶数

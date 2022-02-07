@@ -42,7 +42,7 @@ import java.util.Set;
  * @author chengzhy
  * @date 2022/1/30 10:30
  */
-public class P5993_KeepMultiplyingFoundValuesByTwo {
+public class P2154_KeepMultiplyingFoundValuesByTwo {
 
     public int findFinalValue(int[] nums, int original) {
         Set<Integer> set = new HashSet<>();
