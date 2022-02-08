@@ -1,4 +1,4 @@
-package two_pointers.easy;
+package linked_list.easy;
 
 import java.util.Objects;
 
@@ -33,13 +33,11 @@ import java.util.Objects;
 public class P83_RemoveDuplicatesFromSortedList {
 
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode p = head, pre = new ListNode(-101);
-        while (Objects.nonNull(p)) {
-            if (p.val == pre.val) {
-                p = p.next;
-                pre.next = p;
+        ListNode p = head;
+        while (Objects.nonNull(p) && Objects.nonNull(p.next)) {
+            if (p.val == p.next.val) {
+                p.next = p.next.next;
             } else {
-                pre = p;
                 p = p.next;
             }
         }
