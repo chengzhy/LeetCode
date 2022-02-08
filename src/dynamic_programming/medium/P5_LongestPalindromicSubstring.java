@@ -90,7 +90,7 @@ public class P5_LongestPalindromicSubstring {
         return s.substring(start, end + 1);
     }
 
-    public int expandAroundCenter(String s, int left, int right) {
+    private int expandAroundCenter(String s, int left, int right) {
         while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             --left;
             ++right;
