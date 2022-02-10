@@ -37,8 +37,7 @@ public class P46_Permutations {
 
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        boolean[] visited = new boolean[nums.length];
-        backtracking(result, nums, new ArrayList<>(nums.length), visited);
+        backtracking(result, nums, new ArrayList<>(nums.length), new boolean[nums.length]);
         return result;
     }
 
