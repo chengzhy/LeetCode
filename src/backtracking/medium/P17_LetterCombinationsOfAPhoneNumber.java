@@ -1,4 +1,4 @@
-package depth_first_search.medium;
+package backtracking.medium;
 
 import java.util.*;
 
@@ -82,7 +82,7 @@ public class P17_LetterCombinationsOfAPhoneNumber {
         map.put("8", new ArrayList<>(Arrays.asList("t","u","v")));
         map.put("9", new ArrayList<>(Arrays.asList("w","x","y","z")));
         // start是灵魂
-        dfs(digits, 0, new StringBuilder());
+        backtracking(digits, 0, new StringBuilder());
         return list;
     }
 
@@ -96,7 +96,7 @@ public class P17_LetterCombinationsOfAPhoneNumber {
         return newList;
     }*/
 
-    private void dfs(String digits, int start, StringBuilder stringBuilder) {
+    private void backtracking(String digits, int start, StringBuilder stringBuilder) {
         // start等于字符串长度时，说明已经深度遍历完最后一个数字，返回
         if (start == digits.length()) {
             list.add(stringBuilder.toString());
@@ -107,7 +107,7 @@ public class P17_LetterCombinationsOfAPhoneNumber {
         for (int i=0; i<arr.size(); i++) {
             stringBuilder.append(arr.get(i));
             // 递归，继续获取加1后的start开始的之后的数字
-            dfs(digits, start, stringBuilder);
+            backtracking(digits, start, stringBuilder);
             // 遍历完后删除最后一个字母
             stringBuilder.deleteCharAt(stringBuilder.length()-1);
         }
