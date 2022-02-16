@@ -1,5 +1,6 @@
 package design_data_structure.medium;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -110,5 +111,107 @@ public class P146_LRUCache {
             return size() > capacity;
         }
     }
+
+    /*public static class LRUCache {
+        private int capacity;
+        private HashMap<Integer, Node> hashMap = new HashMap<>();
+        private int size;
+        private Node head = new Node();
+        private Node tail = new Node();
+
+        public LRUCache(int capacity) {
+            this.capacity = capacity;
+            this.size = 0;
+            head.next = tail;
+            tail.pre = head;
+        }
+
+        public int get(int key) {
+            Node node = hashMap.get(key);
+            if (node == null) {
+                return -1;
+            }
+            // 移动该节点到表头第一位置
+            moveNewestNode(node);
+            return node.value;
+        }
+
+        public void put(int key, int value) {
+            Node node = hashMap.get(key);
+            if (node == null) {
+                node = new Node(key, value);
+                hashMap.put(key, node);
+                // 添加该节点到表头第一位置
+                addNode(node);
+            } else {
+                node.value = value;
+                // 移动该节点到表头第一位置
+                moveNewestNode(node);
+                return;
+            }
+            if (size > capacity) {
+                // 删除最老的节点
+                removeEldestNode(tail.pre);
+            }
+        }
+
+        *//**
+         * 向链表开头添加元素
+         *
+         * @param node 节点
+         *//*
+        private void addNode(Node node) {
+            node.next = head.next;
+            head.next.pre = node;
+            node.pre = head;
+            head.next = node;
+            size++;
+        }
+
+        *//**
+         * 移动节点到表头
+         *
+         * @param node 节点
+         *//*
+        private void moveNewestNode(Node node) {
+            Node pre = node.pre, next = node.next;
+            if (pre != null && next != null) {
+                pre.next = next;
+                next.pre = pre;
+            }
+            node.next = head.next;
+            head.next.pre = node;
+            node.pre = head;
+            head.next = node;
+        }
+
+        *//**
+         * 删除最老的节点
+         *
+         * @param node 节点
+         *//*
+        private void removeEldestNode(Node node) {
+            Node pre = node.pre, next = node.next;
+            pre.next = next;
+            next.pre = pre;
+            node.pre = null;
+            node.next = null;
+            hashMap.remove(node.key, node);
+            size--;
+        }
+
+        private class Node {
+            private int key;
+            private int value;
+            private Node pre;
+            private Node next;
+            public Node() {
+            }
+            public Node(int key, int value) {
+                this.key = key;
+                this.value = value;
+            }
+        }
+    }*/
 
 }
