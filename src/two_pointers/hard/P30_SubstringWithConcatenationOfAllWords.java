@@ -84,7 +84,7 @@ public class P30_SubstringWithConcatenationOfAllWords {
         int wn = 1;
         for(String w : map.keySet()) {
             int index = -2;
-            while(index != -1) {
+            while (index != -1) {
                 if (index == -2) index = -1;
                 index = s.indexOf(w, index+1);
                 if (index >= 0) f[index] = wn;

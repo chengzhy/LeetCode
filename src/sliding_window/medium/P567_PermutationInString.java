@@ -56,8 +56,9 @@ public class P567_PermutationInString {
             if (s1Map.containsKey(s2.charAt(start)) && s1Map.containsKey(s2.charAt(end))) {
                 // 判断是否各个字母数量相等==>是子串
                 boolean flag = true;
-                for (Character key : s1Map.keySet()) {
-                    if (!s2Map.containsKey(key) || !s1Map.get(key).equals(s2Map.get(key))) {
+                for (Map.Entry<Character, Integer> entry : s1Map.entrySet()) {
+                    if (!s2Map.containsKey(entry.getKey()) ||
+                            !entry.getValue().equals(s2Map.get(entry.getKey()))) {
                         flag = false;
                         break;
                     }

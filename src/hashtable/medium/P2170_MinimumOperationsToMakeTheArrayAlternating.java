@@ -64,23 +64,23 @@ public class P2170_MinimumOperationsToMakeTheArrayAlternating {
          * 分别从两个map中寻找key数量第一和第二的数量
          */
         int oddMaxKey = 0, oddFirstMaxNum = 0, oddSecondMaxNum = 0;
-        for (Integer key : oddMap.keySet()) {
-            if (oddMap.get(key) > oddFirstMaxNum) {
+        for (Map.Entry<Integer, Integer> entry : oddMap.entrySet()) {
+            if (entry.getValue() > oddFirstMaxNum) {
                 oddSecondMaxNum = oddFirstMaxNum;
-                oddFirstMaxNum = oddMap.get(key);
-                oddMaxKey = key;
-            } else if (oddMap.get(key) > oddSecondMaxNum) {
-                oddSecondMaxNum = oddMap.get(key);
+                oddFirstMaxNum = entry.getValue();
+                oddMaxKey = entry.getKey();
+            } else if (entry.getValue() > oddSecondMaxNum) {
+                oddSecondMaxNum = entry.getValue();
             }
         }
         int evenMaxKey = 0, evenFirstMaxNum = 0, evenSecondMaxNum = 0;
-        for (Integer key : evenMap.keySet()) {
-            if (evenMap.get(key) > evenFirstMaxNum) {
+        for (Map.Entry<Integer, Integer> entry : evenMap.entrySet()) {
+            if (entry.getValue() > evenFirstMaxNum) {
                 evenSecondMaxNum = evenFirstMaxNum;
-                evenFirstMaxNum = evenMap.get(key);
-                evenMaxKey = key;
-            } else if (evenMap.get(key) > evenSecondMaxNum) {
-                evenSecondMaxNum = evenMap.get(key);
+                evenFirstMaxNum = entry.getValue();
+                evenMaxKey = entry.getKey();
+            } else if (entry.getValue() > evenSecondMaxNum) {
+                evenSecondMaxNum = entry.getValue();
             }
         }
         if (oddMaxKey != evenMaxKey) {
