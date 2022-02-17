@@ -57,9 +57,4 @@ public class P268_MissingNumber {
         return 1;
     }
 
-    public static void main(String[] args) {
-        P268_MissingNumber p = new P268_MissingNumber();
-        p.missingNumber(new int[]{0});
-    }
-
 }
