@@ -33,7 +33,7 @@ package array.hard;
 public class P41_FirstMissingPositive {
 
     public int firstMissingPositive(int[] nums) {
-        int[] temp = new int[nums.length];
+        /*int[] temp = new int[nums.length];
         for (int num : nums) {
             if (num > 0 && num <= temp.length) {
                 // 将大于0并且小于temp长度的num添加到对应位置
@@ -47,7 +47,28 @@ public class P41_FirstMissingPositive {
             }
         }
         // 否则就是当前长度+1
-        return temp.length + 1;
+        return temp.length + 1;*/
+        for (int i = 0; i < nums.length; i++) {
+            // 将小于等于0的数标记为数组长度+1的值
+            if (nums[i] <= 0) {
+                nums[i] = nums.length + 1;
+            }
+        }
+        for (int i = 0; i < nums.length; i++) {
+            // 取绝对值，若该数绝对值在1-n范围内，则将nums[该数]标记为负数
+            int num = Math.abs(nums[i]);
+            if (num > 0 && num <= nums.length) {
+                nums[num - 1] = -Math.abs(nums[num - 1]);
+            }
+        }
+        for (int i = 0; i < nums.length; i++) {
+            // 如果某位置大于0，说明该位置的数没出现过
+            if (nums[i] > 0) {
+                return i + 1;
+            }
+        }
+        // 若都没有找到，说明最小正整数为nums.length + 1
+        return nums.length + 1;
     }
 
 }
