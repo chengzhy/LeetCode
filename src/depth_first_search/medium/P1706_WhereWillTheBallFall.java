@@ -1,7 +1,5 @@
 package depth_first_search.medium;
 
-import java.util.Arrays;
-
 /**
  * 球会落何处
  *
@@ -51,10 +49,11 @@ import java.util.Arrays;
  * @date 2022/2/25 10:34
  */
 public class P1706_WhereWillTheBallFall {
+    private static final int RIGHT = 1;
+    private static final int LEFT_OR_STUCK = -1;
 
     public int[] findBall(int[][] grid) {
         int[] answer = new int[grid[0].length];
-        Arrays.fill(answer, -1);
         for (int i = 0; i < answer.length; i++) {
             answer[i] = dfs(grid, 0, i);
         }
@@ -66,18 +65,18 @@ public class P1706_WhereWillTheBallFall {
             // 表示已经走出grid
             return j;
         }
-        if (grid[i][j] == 1) {
-            if (j == grid[0].length - 1 || grid[i][j + 1] == -1) {
+        if (grid[i][j] == RIGHT) {
+            if (j == grid[0].length - 1 || grid[i][j + 1] == LEFT_OR_STUCK) {
                 // 如果已到右边边界或者右边是向左的，则表示阻塞了
-                return -1;
+                return LEFT_OR_STUCK;
             } else {
                 // 往右下角走
                 return dfs(grid, i + 1, j + 1);
             }
         } else {
-            if (j == 0 || grid[i][j - 1] == 1) {
+            if (j == 0 || grid[i][j - 1] == RIGHT) {
                 // 如果已到左边边界或者左边是像右的，则表示阻塞了
-                return -1;
+                return LEFT_OR_STUCK;
             } else {
                 // 往左下角走
                 return dfs(grid, i + 1, j - 1);
