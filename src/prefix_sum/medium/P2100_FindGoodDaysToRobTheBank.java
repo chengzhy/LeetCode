@@ -1,4 +1,4 @@
-package dynamic_programming.medium;
+package prefix_sum.medium;
 
 import java.util.ArrayList;
 import java.util.List;
