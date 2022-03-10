@@ -1,4 +1,4 @@
-package binary_tree.easy;
+package breadth_first_search.easy;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

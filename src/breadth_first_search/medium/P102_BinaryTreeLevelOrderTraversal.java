@@ -1,4 +1,4 @@
-package binary_tree.medium;
+package breadth_first_search.medium;
 
 import java.util.*;
 
