@@ -1,4 +1,4 @@
-package depth_first_search.easy;
+package divide_and_conquer.easy;
 
 /**
  * 将有序数组转换为二叉搜索树
