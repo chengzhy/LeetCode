@@ -49,7 +49,7 @@ public class P2187_MinimumTimeToCompleteTrips {
         // 利用二分查找，rignt为花费最多的时间
         long left = 1L, right = 1L * time[0] * totalTrips;
         while (left < right) {
-            long mid = (left + right) >> 1, count = 0;
+            long mid = left + (right - left) / 2, count = 0;
             for (int t : time) {
                 if (mid < t) {
                     break;

@@ -46,7 +46,7 @@ public class P33_SearchInRotatedSortedArray {
         int l = 0, r = nums.length-1;
         while (l <= r) {
             // mid中间指针
-            int mid = (l+r)/2;
+            int mid = l + (r - l) / 2;
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] < nums[r]) { // 从mid到右边有序

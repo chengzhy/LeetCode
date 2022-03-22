@@ -52,7 +52,7 @@ public class P912_SortAnArray {
              */
             private void mergeSort(int[] nums, int left, int right) {
                 if (left < right) {
-                    int mid = (left + right) >> 1;
+                    int mid = left + (right - left) / 2;
                     /**
                      * 分治思想：同时对左半区间和右半区间排序
                      * 排序完后再合并

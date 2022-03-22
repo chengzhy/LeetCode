@@ -62,7 +62,7 @@ public class P287_FindTheDuplicateNumber {
         int left = 1, right = nums.length - 1, mid, result = 0;
         while (left <= right) {
             // 假设重复的数为mid
-            mid = (left + right) >> 1;
+            mid = left + (right - left) / 2;
             // 计数：小于mid的个数
             int count = 0;
             for (int num : nums) {

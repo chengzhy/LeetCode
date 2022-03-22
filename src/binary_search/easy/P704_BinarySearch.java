@@ -32,7 +32,7 @@ public class P704_BinarySearch {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1, mid;
         while (left <= right) {
-            mid = (left + right) >> 1;
+            mid = left + (right - left) / 2;
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] < target) {

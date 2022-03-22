@@ -54,7 +54,7 @@ public class P34_FindFirstAndLastPositionOfElementInSortedArray {
     private void search(int[] nums, int l, int r, int target, int[] res) {
         // 其它情况
         if (l>nums.length-1 || r<0 || target<nums[l] || nums[r]<target) return;
-        int mid = (l + r)/2;
+        int mid = l + (r - l) / 2;
         if (l <= r) {
             // 左指针匹配到
             if (nums[l] == target) {

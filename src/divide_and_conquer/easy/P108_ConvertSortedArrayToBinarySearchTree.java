@@ -43,7 +43,7 @@ public class P108_ConvertSortedArrayToBinarySearchTree {
         if (left > right) {
             return null;
         }
-        int mid = (left + right) >> 1;
+        int mid = left + (right - left) / 2;
         // 取中点位置作为root
         TreeNode root = new TreeNode(nums[mid]);
         // 因为数组为排序后的，所以选左半区间作为root的左子树

@@ -34,7 +34,7 @@ public class P35_SearchInsertPosition {
     }
 
     private int search(int[] nums, int l, int r, int target) {
-        int mid = (l + r)/2;
+        int mid = l + (r - l) / 2;
         if (l <= r) {
             if (nums[mid] == target) {
                 return mid;

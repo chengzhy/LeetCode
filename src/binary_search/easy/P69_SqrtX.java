@@ -35,7 +35,7 @@ public class P69_SqrtX {
         // 二分查找
         int left = 0, right = x;
         while (left <= right) {
-            int mid = (left + right) >> 1;
+            int mid = left + (right - left) / 2;
             // 注意计算mid * mid可能溢出，所以应该转换为long
             if ((long) mid * mid <= x) {
                 left = mid + 1;
