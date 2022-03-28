@@ -35,7 +35,7 @@ import java.util.Arrays;
 public class P674_LongestContinuousIncreasingSubsequence {
 
     public int findLengthOfLCIS(int[] nums) {
-        // dp[i]数组表示以nums数组的第i个数字结尾的子序列中连续递增的子序列最长的长度
+        // dp[i]数组表示以nums数组的第i个数字结尾(不一定是从下标0开始)的子序列中连续递增的子序列最长的长度
         int[] dp = new int[nums.length];
         Arrays.fill(dp, 1);
         int result = 1;
