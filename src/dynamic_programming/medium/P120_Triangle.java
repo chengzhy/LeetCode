@@ -68,6 +68,25 @@ public class P120_Triangle {
             }
         }
         return dp[0];
+        /**
+         * 再来个正向dp的做法
+         */
+        // dp[i][j]数组表示从三角形的顶点到点(i, j)的最小路径和
+        /*int[][] dp = new int[n][n];
+        dp[0][0] = triangle.get(0).get(0);
+        for (int i = 1; i < n; i++) {
+            // 边界值的情况
+            dp[i][0] = dp[i - 1][0] + triangle.get(i).get(0);
+            for (int j = 1; j < i; j++) {
+                dp[i][j] = Math.min(dp[i - 1][j - 1], dp[i - 1][j]) + triangle.get(i).get(j);
+            }
+            dp[i][i] = dp[i - 1][i - 1] + triangle.get(i).get(i);
+        }
+        int min = dp[n - 1][0];
+        for (int i = 1; i < n; i++) {
+            min = Math.min(min, dp[n - 1][i]);
+        }
+        return min;*/
     }
 
 }
