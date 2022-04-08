@@ -55,7 +55,7 @@ public class P494_TargetSum {
             return 0;
         }
         int x = (sum - target) >> 1;
-        // dp[i][j]数组表示在nums的前i个数中选取元素，使得这些元素之和等于j的方案数。
+        /*// dp[i][j]数组表示在nums的前i个数中选取元素，使得这些元素之和等于j的方案数。
         int[][] dp = new int[nums.length + 1][x + 1];
         // 初始化边界值：没有元素可被选取时，为0的方案数为1，>0的方案数为0
         dp[0][0] = 1;
@@ -70,7 +70,16 @@ public class P494_TargetSum {
                 }
             }
         }
-        return dp[nums.length][x];
+        return dp[nums.length][x];*/
+        // 01背包简化成1维数组
+        int[] dp = new int[x + 1];
+        dp[0] = 1;
+        for (int num : nums) {
+            for (int j = x; j >= num; j--) {
+                dp[j] += dp[j - num];
+            }
+        }
+        return dp[x];
     }
 
 }
