@@ -38,7 +38,7 @@ public class P416_PartitionEqualSubsetSum {
             sum >>= 1;
             /**
              * dp[j]数组表示容量为j的背包，所能放物品的最大价值是dp[j]
-             * 根据题意可以将其转换为01背包问题，从nums中(物品)找到能达到容量为sum / 2的子集即可
+             * 根据题意可以将其转换为01背包问题，从nums中(物品)找到价值为sum / 2的子集即可
              * 物品的重量和价值都等于nums[i]
              */
             int[] dp = new int[sum + 1];
@@ -47,11 +47,10 @@ public class P416_PartitionEqualSubsetSum {
                 // 遍历背包
                 for (int j = sum; j >= nums[i]; j--) {
                     dp[j] = Math.max(dp[j], dp[j - nums[i]] + nums[i]);
-                    if (dp[j] == sum) {
-                        return true;
-                    }
                 }
             }
+            // 因为物品的重量和价值都是nums[i]，所以容量为j的背包所能放的物品的最大价值dp[j]一定是≤j的
+            return dp[sum] == sum;
         }
         return false;
     }
