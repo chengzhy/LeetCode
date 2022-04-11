@@ -2,6 +2,7 @@ package prefix_sum.medium;
 
 /**
  * 蜡烛之间的盘子
+ * <a href="https://leetcode-cn.com/problems/plates-between-candles/">🔗</a>
  *
  * 给你一个长桌子，桌子上盘子和蜡烛排成一列。给你一个下标从 0 开始的字符串 s ，它只包含字符 '*' 和 '|' ，其中 '*' 表示一个 盘子 ，'|' 表示一支 蜡烛 。
  *

@@ -2,6 +2,7 @@ package sliding_window.medium;
 
 /**
  * 替换后的最长重复字符
+ * <a href="https://leetcode-cn.com/problems/longest-repeating-character-replacement/">🔗</a>
  *
  * 给你一个字符串 s 和一个整数 k 。你可以选择字符串中的任一字符，并将其更改为任何其他大写英文字符。该操作最多可执行 k 次。
  *

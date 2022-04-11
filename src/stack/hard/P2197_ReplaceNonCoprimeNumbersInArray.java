@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 替换数组中的非互质数
+ * <a href="https://leetcode-cn.com/problems/replace-non-coprime-numbers-in-array/">🔗</a>
  *
  * 给你一个整数数组 nums 。请你对数组执行下述操作：
  *

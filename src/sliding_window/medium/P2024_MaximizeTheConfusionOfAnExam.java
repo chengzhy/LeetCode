@@ -2,6 +2,7 @@ package sliding_window.medium;
 
 /**
  * 考试的最大困扰度
+ * <a href="https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/">🔗</a>
  *
  * 一位老师正在出一场由 n 道判断题构成的考试，每道题的答案为 true （用 'T' 表示）或者 false （用 'F' 表示）。老师想增加学生对自己做出答案的不确定性，方法是 最大化 有 连续相同 结果的题数。（也就是连续出现 true 或者连续出现 false）。
  *

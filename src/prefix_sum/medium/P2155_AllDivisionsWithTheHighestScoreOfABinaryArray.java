@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 分组得分最高的所有下标
+ * <a href="https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/">🔗</a>
  *
  * 给你一个下标从 0 开始的二进制数组 nums ，数组长度为 n 。nums 可以按下标 i（ 0 <= i <= n ）拆分成两个数组（可能为空）：numsleft 和 numsright 。
  *
