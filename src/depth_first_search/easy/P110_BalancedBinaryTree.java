@@ -4,6 +4,7 @@ import java.util.Objects;
 
 /**
  * 平衡二叉树
+ * <a href="https://leetcode-cn.com/problems/balanced-binary-tree/">🔗</a>
  *
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。
  *

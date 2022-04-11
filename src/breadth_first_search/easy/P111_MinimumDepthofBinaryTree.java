@@ -6,6 +6,7 @@ import java.util.Objects;
 
 /**
  * 二叉树的最小深度
+ * <a href="https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/">🔗</a>
  *
  * 给定一个二叉树，找出其最小深度。
  *

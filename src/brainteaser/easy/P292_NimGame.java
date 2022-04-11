@@ -2,6 +2,7 @@ package brainteaser.easy;
 
 /**
  * Nim 游戏
+ * <a href="https://leetcode-cn.com/problems/nim-game/">🔗</a>
  *
  * 你和你的朋友，两个人一起玩 Nim 游戏：
  *

@@ -5,6 +5,7 @@ import java.util.Queue;
 
 /**
  * 地图分析
+ * <a href="https://leetcode-cn.com/problems/as-far-from-land-as-possible/">🔗</a>
  *
  * 你现在手里有一份大小为 n x n 的 网格 grid，上面的每个 单元格 都用 0 和 1 标记好了。其中 0 代表海洋，1 代表陆地。
  *

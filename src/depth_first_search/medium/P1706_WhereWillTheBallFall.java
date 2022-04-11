@@ -2,6 +2,7 @@ package depth_first_search.medium;
 
 /**
  * 球会落何处
+ * <a href="https://leetcode-cn.com/problems/where-will-the-ball-fall/">🔗</a>
  *
  * 用一个大小为 m x n 的二维网格 grid 表示一个箱子。你有 n 颗球。箱子的顶部和底部都是开着的。
  *

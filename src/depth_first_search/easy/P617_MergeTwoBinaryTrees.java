@@ -4,6 +4,7 @@ import java.util.Objects;
 
 /**
  * 合并二叉树
+ * <a href="https://leetcode-cn.com/problems/merge-two-binary-trees/">🔗</a>
  *
  * 给你两棵二叉树： root1 和 root2 。
  *

@@ -4,6 +4,7 @@ import java.util.Objects;
 
 /**
  * 验证二叉搜索树
+ * <a href="https://leetcode-cn.com/problems/validate-binary-search-tree/">🔗</a>
  *
  * 给你一个二叉树的根节点 root ，判断其是否是一个有效的二叉搜索树。
  *

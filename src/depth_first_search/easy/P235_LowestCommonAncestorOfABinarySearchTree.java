@@ -2,6 +2,7 @@ package depth_first_search.easy;
 
 /**
  * 二叉搜索树的最近公共祖先
+ * <a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">🔗</a>
  *
  * 给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。
  *

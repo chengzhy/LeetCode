@@ -2,6 +2,7 @@ package depth_first_search.hard;
 
 /**
  * 从先序遍历还原二叉树
+ * <a href="https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/">🔗</a>
  *
  * 我们从二叉树的根节点 root 开始进行深度优先搜索。
  *

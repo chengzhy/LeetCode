@@ -5,6 +5,7 @@ import java.util.Queue;
 
 /**
  * 腐烂的橘子
+ * <a href="https://leetcode-cn.com/problems/rotting-oranges/">🔗</a>
  *
  * 在给定的 m x n 网格 grid 中，每个单元格可以有以下三个值之一：
  *

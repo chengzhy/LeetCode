@@ -4,6 +4,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * 交替打印 FooBar
+ * <a href="https://leetcode-cn.com/problems/print-foobar-alternately/">🔗</a>
  *
  * 给你一个类：
  *
