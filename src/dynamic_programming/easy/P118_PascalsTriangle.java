@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 杨辉三角
+ * <a href="https://leetcode-cn.com/problems/pascals-triangle/">🔗</a>
  *
  * 给定一个非负整数 numRows，生成「杨辉三角」的前 numRows 行。
  *

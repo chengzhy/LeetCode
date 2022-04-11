@@ -2,6 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 最长回文子串
+ * <a href="https://leetcode-cn.com/problems/longest-palindromic-substring/">🔗</a>
  *
  * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
  *

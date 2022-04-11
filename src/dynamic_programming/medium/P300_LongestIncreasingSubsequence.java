@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 最长递增子序列
+ * <a href="https://leetcode-cn.com/problems/longest-increasing-subsequence/">🔗</a>
  *
  * 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
  *

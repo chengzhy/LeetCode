@@ -7,6 +7,7 @@ import java.util.Set;
 
 /**
  * 重构一棵树的方案数
+ * <a href="https://leetcode-cn.com/problems/number-of-ways-to-reconstruct-a-tree/">🔗</a>
  *
  * 给你一个数组 pairs ，其中 pairs[i] = [xi, yi] ，并且满足：
  *

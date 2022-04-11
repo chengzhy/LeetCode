@@ -2,6 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 最长回文子序列
+ * <a href="https://leetcode-cn.com/problems/longest-palindromic-subsequence/">🔗</a>
  *
  * 给你一个字符串 s ，找出其中最长的回文子序列，并返回该序列的长度。
  *
