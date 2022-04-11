@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 字母大小写全排列
+ * <a href="https://leetcode-cn.com/problems/letter-case-permutation/">🔗</a>
  *
  * 给定一个字符串 s ，通过将字符串 s 中的每个字母转变大小写，我们可以获得一个新的字符串。
  *

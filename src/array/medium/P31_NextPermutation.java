@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 下一个排列
+ * <a href="https://leetcode-cn.com/problems/next-permutation/">🔗</a>
  *
  * 实现获取 下一个排列 的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
  *

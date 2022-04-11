@@ -2,6 +2,7 @@ package backtracking.hard;
 
 /**
  * 解数独
+ * <a href="https://leetcode-cn.com/problems/sudoku-solver/">🔗</a>
  *
  * 编写一个程序，通过填充空格来解决数独问题。
  *

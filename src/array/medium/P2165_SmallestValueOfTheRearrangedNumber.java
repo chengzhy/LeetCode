@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 重排数字的最小值
+ * <a href="https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/">🔗</a>
  *
  * 给你一个整数 num 。重排 num 中的各位数字，使其值 最小化 且不含 任何 前导零。
  *

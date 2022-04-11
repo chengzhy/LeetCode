@@ -2,6 +2,7 @@ package bit_manipulation.easy;
 
 /**
  * 颠倒二进制位
+ * <a href="https://leetcode-cn.com/problems/reverse-bits/">🔗</a>
  *
  * 颠倒给定的 32 位无符号整数的二进制位。
  *

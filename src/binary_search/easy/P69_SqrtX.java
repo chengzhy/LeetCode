@@ -2,6 +2,7 @@ package binary_search.easy;
 
 /**
  * x 的平方根
+ * <a href="https://leetcode-cn.com/problems/sqrtx/">🔗</a>
  *
  * 给你一个非负整数 x ，计算并返回 x 的 算术平方根 。
  *
