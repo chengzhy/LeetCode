@@ -2,6 +2,7 @@ package string.hard;
 
 /**
  * 强密码检验器
+ * <a href="https://leetcode-cn.com/problems/strong-password-checker/">🔗</a>
  *
  * 如果一个密码满足下述所有条件，则认为这个密码是强密码：
  * 由至少 6 个，至多 20 个字符组成。

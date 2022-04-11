@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * “气球” 的最大数量
+ * <a href="https://leetcode-cn.com/problems/maximum-number-of-balloons/">🔗</a>
  *
  * 给你一个字符串 text，你需要使用 text 中的字母来拼凑尽可能多的单词 "balloon"（气球）。
  *

@@ -2,6 +2,7 @@ package string.easy;
 
 /**
  * 统计包含给定前缀的字符串
+ * <a href="https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/">🔗</a>
  *
  * 给你一个字符串数组 words 和一个字符串 pref 。
  *

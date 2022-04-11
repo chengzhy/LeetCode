@@ -2,6 +2,7 @@ package two_pointers.easy;
 
 /**
  * 实现 strStr()
+ * <a href="https://leetcode-cn.com/problems/implement-strstr/">🔗</a>
  *
  * 实现 strStr() 函数。
  *

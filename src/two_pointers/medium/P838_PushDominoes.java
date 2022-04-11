@@ -2,6 +2,7 @@ package two_pointers.medium;
 
 /**
  * 推多米诺
+ * <a href="https://leetcode-cn.com/problems/push-dominoes/">🔗</a>
  *
  * n 张多米诺骨牌排成一行，将每张多米诺骨牌垂直竖立。在开始时，同时把一些多米诺骨牌向左或向右推。
  *

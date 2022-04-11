@@ -2,6 +2,7 @@ package string.medium;
 
 /**
  * Z字形变换
+ * <a href="https://leetcode-cn.com/problems/zigzag-conversion/">🔗</a>
  *
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
  *

@@ -2,6 +2,7 @@ package string.easy;
 
 /**
  * 有效的字母异位词
+ * <a href="https://leetcode-cn.com/problems/valid-anagram/">🔗</a>
  *
  * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
  *
