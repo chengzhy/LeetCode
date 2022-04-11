@@ -2,6 +2,7 @@ package math.easy;
 
 /**
  * 3 的幂
+ * <a href="https://leetcode-cn.com/problems/power-of-three/">🔗</a>
  *
  * 给定一个整数，写一个函数来判断它是否是 3 的幂次方。如果是，返回 true ；否则，返回 false 。
  *

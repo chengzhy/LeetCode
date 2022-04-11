@@ -2,6 +2,7 @@ package greedy.medium;
 
 /**
  * 最长快乐字符串
+ * <a href="https://leetcode-cn.com/problems/longest-happy-string/">🔗</a>
  *
  * 如果字符串中不含有任何 'aaa'，'bbb' 或 'ccc' 这样的字符串作为子串，那么该字符串就是一个「快乐字符串」。
  *

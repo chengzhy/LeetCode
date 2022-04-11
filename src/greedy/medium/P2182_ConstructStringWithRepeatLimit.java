@@ -2,6 +2,7 @@ package greedy.medium;
 
 /**
  * 构造限制重复的字符串
+ * <a href="https://leetcode-cn.com/problems/construct-string-with-repeat-limit/">🔗</a>
  *
  * 给你一个字符串 s 和一个整数 repeatLimit ，用 s 中的字符构造一个新字符串 repeatLimitedString ，使任何字母 连续 出现的次数都不超过 repeatLimit 次。你不必使用 s 中的全部字符。
  *

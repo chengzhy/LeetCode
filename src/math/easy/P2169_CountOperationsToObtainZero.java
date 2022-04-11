@@ -2,6 +2,7 @@ package math.easy;
 
 /**
  * 得到 0 的操作数
+ * <a href="https://leetcode-cn.com/problems/count-operations-to-obtain-zero/">🔗</a>
  *
  * 给你两个 非负 整数 num1 和 num2 。
  *

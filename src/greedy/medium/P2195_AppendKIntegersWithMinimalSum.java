@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 向数组中追加 K 个整数
+ * <a href="https://leetcode-cn.com/problems/append-k-integers-with-minimal-sum/">🔗</a>
  *
  * 给你一个整数数组 nums 和一个整数 k 。请你向 nums 中追加 k 个 未 出现在 nums 中的、互不相同 的 正 整数，并使结果数组的元素和 最小 。
  *

@@ -2,6 +2,7 @@ package math.medium;
 
 /**
  * 查找给定哈希值的子串
+ * <a href="https://leetcode-cn.com/problems/find-substring-with-given-hash-value/">🔗</a>
  *
  * 给定整数 p 和 modulo ，一个长度为 k 且下标从 0 开始的字符串 s 的哈希值按照如下函数计算：
  *

@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * 自除数
+ * <a href="https://leetcode-cn.com/problems/self-dividing-numbers/">🔗</a>
  *
  * 自除数 是指可以被它包含的每一位数整除的数。
  *

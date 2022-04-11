@@ -7,6 +7,7 @@ import java.util.Set;
 
 /**
  * 网格照明
+ * <a href="https://leetcode-cn.com/problems/grid-illumination/">🔗</a>
  *
  * 在大小为 n x n 的网格 grid 上，每个单元格都有一盏灯，最初灯都处于 关闭 状态。
  *
