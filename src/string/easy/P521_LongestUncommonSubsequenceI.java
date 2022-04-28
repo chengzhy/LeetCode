@@ -2,7 +2,7 @@ package string.easy;
 
 /**
  * 最长特殊序列 Ⅰ
- * <a href="https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/">🔗</a>
+ * <a href="https://leetcode.cn/problems/longest-uncommon-subsequence-i/">🔗</a>
  *
  * 给你两个字符串 a 和 b，请返回 这两个字符串中 最长的特殊序列  的长度。如果不存在，则返回 -1 。
  *

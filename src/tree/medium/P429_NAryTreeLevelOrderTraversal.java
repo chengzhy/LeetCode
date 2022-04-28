@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * N 叉树的层序遍历
- * <a href="https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/">🔗</a>
+ * <a href="https://leetcode.cn/problems/n-ary-tree-level-order-traversal/">🔗</a>
  *
  * 给定一个 N 叉树，返回其节点值的层序遍历。（即从左到右，逐层遍历）。
  *

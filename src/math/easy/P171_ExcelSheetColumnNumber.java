@@ -2,7 +2,7 @@ package math.easy;
 
 /**
  * Excel 表列序号
- * <a href="https://leetcode-cn.com/problems/excel-sheet-column-number/">🔗</a>
+ * <a href="https://leetcode.cn/problems/excel-sheet-column-number/">🔗</a>
  *
  * 给你一个字符串 columnTitle ，表示 Excel 表格中的列名称。返回 该列名称对应的列序号 。
  *

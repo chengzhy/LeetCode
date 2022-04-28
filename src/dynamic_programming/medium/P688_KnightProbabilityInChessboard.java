@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 骑士在棋盘上的概率
- * <a href="https://leetcode-cn.com/problems/knight-probability-in-chessboard/">🔗</a>
+ * <a href="https://leetcode.cn/problems/knight-probability-in-chessboard/">🔗</a>
  *
  * 在一个 n x n 的国际象棋棋盘上，一个骑士从单元格 (row, column) 开始，并尝试进行 k 次移动。行和列是 从 0 开始 的，所以左上单元格是 (0,0) ，右下单元格是 (n - 1, n - 1) 。
  *

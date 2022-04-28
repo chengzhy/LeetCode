@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 学生分数的最小差值
- * <a href="https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/">🔗</a>
+ * <a href="https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/">🔗</a>
  *
  * 给你一个 下标从 0 开始 的整数数组 nums ，其中 nums[i] 表示第 i 名学生的分数。另给你一个整数 k 。
  *

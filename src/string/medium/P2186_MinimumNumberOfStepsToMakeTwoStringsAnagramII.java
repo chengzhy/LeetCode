@@ -2,7 +2,7 @@ package string.medium;
 
 /**
  * 使两字符串互为字母异位词的最少步骤数
- * <a href="https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/">🔗</a>
+ * <a href="https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/">🔗</a>
  *
  * 给你两个字符串 s 和 t 。在一步操作中，你可以给 s 或者 t 追加 任一字符 。
  *

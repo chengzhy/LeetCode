@@ -2,7 +2,7 @@ package math.medium;
 
 /**
  * 旋转图像
- * <a href="https://leetcode-cn.com/problems/rotate-image/">🔗</a>
+ * <a href="https://leetcode.cn/problems/rotate-image/">🔗</a>
  *
  * 给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。
  *

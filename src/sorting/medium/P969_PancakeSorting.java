@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 煎饼排序
- * <a href="https://leetcode-cn.com/problems/pancake-sorting/">🔗</a>
+ * <a href="https://leetcode.cn/problems/pancake-sorting/">🔗</a>
  *
  * 给你一个整数数组 arr ，请使用 煎饼翻转 完成对数组的排序。
  *

@@ -2,7 +2,7 @@ package two_pointers.easy;
 
 /**
  * 反转字符串
- * <a href="https://leetcode-cn.com/problems/reverse-string/">🔗</a>
+ * <a href="https://leetcode.cn/problems/reverse-string/">🔗</a>
  *
  * 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 s 的形式给出。
  *

@@ -2,7 +2,7 @@ package sliding_window.medium;
 
 /**
  * 长度最小的子数组
- * <a href="https://leetcode-cn.com/problems/minimum-size-subarray-sum/">🔗</a>
+ * <a href="https://leetcode.cn/problems/minimum-size-subarray-sum/">🔗</a>
  *
  * 给定一个含有 n 个正整数的数组和一个正整数 target 。
  *

@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * 环形链表
- * <a href="https://leetcode-cn.com/problems/linked-list-cycle/">🔗</a>
+ * <a href="https://leetcode.cn/problems/linked-list-cycle/">🔗</a>
  *
  * 给定一个链表，判断链表中是否有环。
  *

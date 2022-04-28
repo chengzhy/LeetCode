@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 字符串的排列
- * <a href="https://leetcode-cn.com/problems/permutation-in-string/">🔗</a>
+ * <a href="https://leetcode.cn/problems/permutation-in-string/">🔗</a>
  *
  * 给你两个字符串 s1 和 s2 ，写一个函数来判断 s2 是否包含 s1 的排列。如果是，返回 true ；否则，返回 false 。
  *

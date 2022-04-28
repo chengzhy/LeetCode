@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 拿出最少数目的魔法豆
- * <a href="https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/">🔗</a>
+ * <a href="https://leetcode.cn/problems/removing-minimum-number-of-magic-beans/">🔗</a>
  *
  * 给你一个 正 整数数组 beans ，其中每个整数表示一个袋子里装的魔法豆的数目。
  *

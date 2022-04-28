@@ -2,7 +2,7 @@ package two_pointers.easy;
 
 /**
  * 仅仅反转字母
- * <a href="https://leetcode-cn.com/problems/reverse-only-letters/">🔗</a>
+ * <a href="https://leetcode.cn/problems/reverse-only-letters/">🔗</a>
  *
  * 给你一个字符串 s ，根据下述规则反转字符串：
  *

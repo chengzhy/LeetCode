@@ -2,7 +2,7 @@ package dynamic_programming.hard;
 
 /**
  * 正则表达式匹配
- * <a href="https://leetcode-cn.com/problems/regular-expression-matching/">🔗</a>
+ * <a href="https://leetcode.cn/problems/regular-expression-matching/">🔗</a>
  *
  * 给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。
  *

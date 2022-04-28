@@ -2,7 +2,7 @@ package sliding_window.medium;
 
 /**
  * 尽可能使字符串相等
- * <a href="https://leetcode-cn.com/problems/get-equal-substrings-within-budget/">🔗</a>
+ * <a href="https://leetcode.cn/problems/get-equal-substrings-within-budget/">🔗</a>
  *
  * 给你两个长度相同的字符串，s 和 t。
  *

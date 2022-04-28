@@ -2,7 +2,7 @@ package brainteaser.medium;
 
 /**
  * 如果相邻两个颜色均相同则删除当前颜色
- * <a href="https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/">🔗</a>
+ * <a href="https://leetcode.cn/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/">🔗</a>
  *
  * 总共有 n 个颜色片段排成一列，每个颜色片段要么是 'A' 要么是 'B' 。给你一个长度为 n 的字符串 colors ，其中 colors[i] 表示第 i 个颜色片段的颜色。
  *

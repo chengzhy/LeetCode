@@ -2,7 +2,7 @@ package divide_and_conquer.hard;
 
 /**
  * 寻找两个正序数组的中位数
- * <a href="https://leetcode-cn.com/problems/median-of-two-sorted-arrays/">🔗</a>
+ * <a href="https://leetcode.cn/problems/median-of-two-sorted-arrays/">🔗</a>
  *
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  *

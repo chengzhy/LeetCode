@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * 子数组范围和
- * <a href="https://leetcode-cn.com/problems/sum-of-subarray-ranges/">🔗</a>
+ * <a href="https://leetcode.cn/problems/sum-of-subarray-ranges/">🔗</a>
  *
  * 给你一个整数数组 nums 。nums 中，子数组的 范围 是子数组中最大元素和最小元素的差值。
  *

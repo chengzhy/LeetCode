@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 组合总和 Ⅳ
- * <a href="https://leetcode-cn.com/problems/combination-sum-iv/">🔗</a>
+ * <a href="https://leetcode.cn/problems/combination-sum-iv/">🔗</a>
  *
  * 给你一个由 不同 整数组成的数组 nums ，和一个目标整数 target 。请你从 nums 中找出并返回总和为 target 的元素组合的个数。
  *

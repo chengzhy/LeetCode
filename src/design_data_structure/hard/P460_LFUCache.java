@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * LFU 缓存
- * <a href="https://leetcode-cn.com/problems/lfu-cache/">🔗</a>
+ * <a href="https://leetcode.cn/problems/lfu-cache/">🔗</a>
  *
  * 请你为 最不经常使用（LFU）缓存算法设计并实现数据结构。
  *

@@ -2,7 +2,7 @@ package dynamic_programming.easy;
 
 /**
  * 买卖股票的最佳时机
- * <a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/">🔗</a>
+ * <a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/">🔗</a>
  *
  * 给定一个数组 prices ，它的第 i 个元素 prices[i] 表示一支给定股票第 i 天的价格。
  *

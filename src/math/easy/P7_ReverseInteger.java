@@ -2,7 +2,7 @@ package math.easy;
 
 /**
  * 整数反转
- * <a href="https://leetcode-cn.com/problems/reverse-integer/">🔗</a>
+ * <a href="https://leetcode.cn/problems/reverse-integer/">🔗</a>
  *
  * Given a 32-bit signed integer, reverse digits of an integer.
  *

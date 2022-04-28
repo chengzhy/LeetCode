@@ -2,7 +2,7 @@ package backtracking.hard;
 
 /**
  * 最多可达成的换楼请求数目
- * <a href="https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/">🔗</a>
+ * <a href="https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests/">🔗</a>
  *
  * 我们有 n 栋楼，编号从 0 到 n - 1 。每栋楼有若干员工。由于现在是换楼的季节，部分员工想要换一栋楼居住。
  *

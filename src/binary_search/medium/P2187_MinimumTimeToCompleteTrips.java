@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 完成旅途的最少时间
- * <a href="https://leetcode-cn.com/problems/minimum-time-to-complete-trips/">🔗</a>
+ * <a href="https://leetcode.cn/problems/minimum-time-to-complete-trips/">🔗</a>
  *
  * 给你一个数组 time ，其中 time[i] 表示第 i 辆公交车完成 一趟旅途 所需要花费的时间。
  *

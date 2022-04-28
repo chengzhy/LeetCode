@@ -2,7 +2,7 @@ package linked_list.medium;
 
 /**
  * 合并零之间的节点
- * <a href="https://leetcode-cn.com/problems/merge-nodes-in-between-zeros/">🔗</a>
+ * <a href="https://leetcode.cn/problems/merge-nodes-in-between-zeros/">🔗</a>
  *
  * 给你一个链表的头节点 head ，该链表包含由 0 分隔开的一连串整数。链表的 开端 和 末尾 的节点都满足 Node.val == 0 。
  *

@@ -2,7 +2,7 @@ package array.easy;
 
 /**
  * 1 比特与 2 比特字符
- * <a href="https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/">🔗</a>
+ * <a href="https://leetcode.cn/problems/1-bit-and-2-bit-characters/">🔗</a>
  *
  * 有两种特殊字符：
  *

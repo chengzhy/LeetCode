@@ -2,7 +2,7 @@ package recursion.medium;
 
 /**
  * 外观数列
- * <a href="https://leetcode-cn.com/problems/count-and-say/">🔗</a>
+ * <a href="https://leetcode.cn/problems/count-and-say/">🔗</a>
  *
  * 给定一个正整数 n ，输出外观数列的第 n 项。
  *

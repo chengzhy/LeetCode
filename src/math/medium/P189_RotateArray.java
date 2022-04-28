@@ -2,7 +2,7 @@ package math.medium;
 
 /**
  * 轮转数组
- * <a href="https://leetcode-cn.com/problems/rotate-array/">🔗</a>
+ * <a href="https://leetcode.cn/problems/rotate-array/">🔗</a>
  *
  * 给你一个数组，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
  *

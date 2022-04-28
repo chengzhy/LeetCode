@@ -2,7 +2,7 @@ package string.medium;
 
 /**
  * 复数乘法
- * <a href="https://leetcode-cn.com/problems/complex-number-multiplication/">🔗</a>
+ * <a href="https://leetcode.cn/problems/complex-number-multiplication/">🔗</a>
  *
  * 复数 可以用字符串表示，遵循 "实部+虚部i" 的形式，并满足下述条件：
  *

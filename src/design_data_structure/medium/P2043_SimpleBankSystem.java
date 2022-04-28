@@ -2,7 +2,7 @@ package design_data_structure.medium;
 
 /**
  * 简易银行系统
- * <a href="https://leetcode-cn.com/problems/simple-bank-system/">🔗</a>
+ * <a href="https://leetcode.cn/problems/simple-bank-system/">🔗</a>
  *
  * 你的任务是为一个很受欢迎的银行设计一款程序，以自动化执行所有传入的交易（转账，存款和取款）。银行共有 n 个账户，编号从 1 到 n 。每个账号的初始余额存储在一个下标从 0 开始的整数数组 balance 中，其中第 (i + 1) 个账户的初始余额是 balance[i] 。
  *

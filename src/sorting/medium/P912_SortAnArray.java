@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * 排序数组
- * <a href="https://leetcode-cn.com/problems/sort-an-array/">🔗</a>
+ * <a href="https://leetcode.cn/problems/sort-an-array/">🔗</a>
  *
  * 给你一个整数数组 nums，请你将该数组升序排列。
  *

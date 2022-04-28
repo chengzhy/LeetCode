@@ -2,7 +2,7 @@ package graph.easy;
 
 /**
  * 找出星型图的中心节点
- * <a href="https://leetcode-cn.com/problems/find-center-of-star-graph/">🔗</a>
+ * <a href="https://leetcode.cn/problems/find-center-of-star-graph/">🔗</a>
  *
  * 有一个无向的 星型 图，由 n 个编号从 1 到 n 的节点组成。星型图有一个 中心 节点，并且恰有 n - 1 条边将中心节点与其他每个节点连接起来。
  *

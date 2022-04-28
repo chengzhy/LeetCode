@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 子集 II
- * <a href="https://leetcode-cn.com/problems/subsets-ii/">🔗</a>
+ * <a href="https://leetcode.cn/problems/subsets-ii/">🔗</a>
  *
  * 给你一个整数数组 nums ，其中可能包含重复元素，请你返回该数组所有可能的子集（幂集）。
  *

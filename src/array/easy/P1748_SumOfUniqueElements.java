@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 唯一元素的和
- * <a href="https://leetcode-cn.com/problems/sum-of-unique-elements/">🔗</a>
+ * <a href="https://leetcode.cn/problems/sum-of-unique-elements/">🔗</a>
  *
  * 给你一个整数数组 nums 。数组中唯一元素是那些只出现 恰好一次 的元素。
  *

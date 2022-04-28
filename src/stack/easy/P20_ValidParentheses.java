@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * 有效的括号
- * <a href="https://leetcode-cn.com/problems/valid-parentheses/">🔗</a>
+ * <a href="https://leetcode.cn/problems/valid-parentheses/">🔗</a>
  *
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
  *

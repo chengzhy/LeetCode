@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * N 叉树的前序遍历
- * <a href="https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/">🔗</a>
+ * <a href="https://leetcode.cn/problems/n-ary-tree-preorder-traversal/">🔗</a>
  *
  * 给定一个 n 叉树的根节点  root ，返回 其节点值的 前序遍历 。
  *

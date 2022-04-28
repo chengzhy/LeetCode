@@ -2,7 +2,7 @@ package greedy.medium;
 
 /**
  * K 次操作后最大化顶端元素
- * <a href="https://leetcode-cn.com/problems/maximize-the-topmost-element-after-k-moves/">🔗</a>
+ * <a href="https://leetcode.cn/problems/maximize-the-topmost-element-after-k-moves/">🔗</a>
  *
  * 给你一个下标从 0 开始的整数数组 nums ，它表示一个 栈 ，其中 nums[0] 是栈顶的元素。
  *

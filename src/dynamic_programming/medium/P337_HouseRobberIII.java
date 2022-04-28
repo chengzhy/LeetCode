@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * 打家劫舍 III
- * <a href="https://leetcode-cn.com/problems/house-robber-iii/">🔗</a>
+ * <a href="https://leetcode.cn/problems/house-robber-iii/">🔗</a>
  *
  * 小偷又发现了一个新的可行窃的地区。这个地区只有一个入口，我们称之为 root 。
  *

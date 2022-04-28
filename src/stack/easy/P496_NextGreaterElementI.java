@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * 下一个更大元素 I
- * <a href="https://leetcode-cn.com/problems/next-greater-element-i/">🔗</a>
+ * <a href="https://leetcode.cn/problems/next-greater-element-i/">🔗</a>
  *
  * nums1 中数字 x 的 下一个更大元素 是指 x 在 nums2 中对应位置 右侧 的 第一个 比 x 大的元素。
  *

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 数位成本和为目标值的最大数字
- * <a href="https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target/">🔗</a>
+ * <a href="https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/">🔗</a>
  *
  * 给你一个整数数组 cost 和一个整数 target 。请你返回满足如下规则可以得到的 最大 整数：
  *

@@ -2,7 +2,7 @@ package dynamic_programming.easy;
 
 /**
  * 判断子序列
- * <a href="https://leetcode-cn.com/problems/is-subsequence/">🔗</a>
+ * <a href="https://leetcode.cn/problems/is-subsequence/">🔗</a>
  *
  * 给定字符串 s 和 t ，判断 s 是否为 t 的子序列。
  *

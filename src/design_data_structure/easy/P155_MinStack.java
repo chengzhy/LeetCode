@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 /**
  * 最小栈
- * <a href="https://leetcode-cn.com/problems/min-stack/">🔗</a>
+ * <a href="https://leetcode.cn/problems/min-stack/">🔗</a>
  *
  * 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。
  *

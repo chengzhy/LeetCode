@@ -2,7 +2,7 @@ package math.medium;
 
 /**
  * 整数转罗马数字
- * <a href="https://leetcode-cn.com/problems/integer-to-roman/">🔗</a>
+ * <a href="https://leetcode.cn/problems/integer-to-roman/">🔗</a>
  *
  * 罗马数字包含以下七种字符： I， V， X， L，C，D 和 M。
  *

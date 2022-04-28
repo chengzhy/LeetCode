@@ -2,7 +2,7 @@ package linked_list.medium;
 
 /**
  * 删除链表的倒数第 N 个结点
- * <a href="https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/">🔗</a>
+ * <a href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">🔗</a>
  *
  * 给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
  *

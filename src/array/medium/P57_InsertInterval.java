@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 插入区间
- * <a href="https://leetcode-cn.com/problems/insert-interval/">🔗</a>
+ * <a href="https://leetcode.cn/problems/insert-interval/">🔗</a>
  *
  * 给你一个 无重叠的 ，按照区间起始端点排序的区间列表。
  *

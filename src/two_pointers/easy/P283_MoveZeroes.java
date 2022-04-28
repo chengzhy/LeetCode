@@ -2,7 +2,7 @@ package two_pointers.easy;
 
 /**
  * 移动零
- * <a href="https://leetcode-cn.com/problems/move-zeroes/">🔗</a>
+ * <a href="https://leetcode.cn/problems/move-zeroes/">🔗</a>
  *
  * 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
  *

@@ -2,7 +2,7 @@ package brainteaser.medium;
 
 /**
  * 统计道路上的碰撞次数
- * <a href="https://leetcode-cn.com/problems/count-collisions-on-a-road/">🔗</a>
+ * <a href="https://leetcode.cn/problems/count-collisions-on-a-road/">🔗</a>
  *
  * 在一条无限长的公路上有 n 辆汽车正在行驶。汽车按从左到右的顺序按从 0 到 n - 1 编号，每辆车都在一个 独特的 位置。
  *

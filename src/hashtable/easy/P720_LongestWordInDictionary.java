@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * 词典中最长的单词
- * <a href="https://leetcode-cn.com/problems/longest-word-in-dictionary/">🔗</a>
+ * <a href="https://leetcode.cn/problems/longest-word-in-dictionary/">🔗</a>
  *
  * 给出一个字符串数组 words 组成的一本英语词典。返回 words 中最长的一个单词，该单词是由 words 词典中其他单词逐步添加一个字母组成。
  *

@@ -2,7 +2,7 @@ package depth_first_search.easy;
 
 /**
  * 岛屿的周长
- * <a href="https://leetcode-cn.com/problems/island-perimeter/">🔗</a>
+ * <a href="https://leetcode.cn/problems/island-perimeter/">🔗</a>
  *
  * 给定一个 row x col 的二维网格地图 grid ，其中：grid[i][j] = 1 表示陆地， grid[i][j] = 0 表示水域。
  *

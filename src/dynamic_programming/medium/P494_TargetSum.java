@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 目标和
- * <a href="https://leetcode-cn.com/problems/target-sum/">🔗</a>
+ * <a href="https://leetcode.cn/problems/target-sum/">🔗</a>
  *
  * 给你一个整数数组 nums 和一个整数 target 。
  *

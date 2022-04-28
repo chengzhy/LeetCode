@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * 翻转二叉树
- * <a href="https://leetcode-cn.com/problems/invert-binary-tree/">🔗</a>
+ * <a href="https://leetcode.cn/problems/invert-binary-tree/">🔗</a>
  *
  * 翻转一棵二叉树。
  *

@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 两个字符串的删除操作
- * <a href="https://leetcode-cn.com/problems/delete-operation-for-two-strings/">🔗</a>
+ * <a href="https://leetcode.cn/problems/delete-operation-for-two-strings/">🔗</a>
  *
  * 给定两个单词 word1 和 word2 ，返回使得 word1 和  word2 相同所需的最小步数。
  *

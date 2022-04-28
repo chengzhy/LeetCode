@@ -2,7 +2,7 @@ package divide_and_conquer.medium;
 
 /**
  * Pow(x, n)
- * <a href="https://leetcode-cn.com/problems/powx-n/">🔗</a>
+ * <a href="https://leetcode.cn/problems/powx-n/">🔗</a>
  *
  * 实现 pow(x, n) ，即计算 x 的 n 次幂函数（即，xn ）。
  *

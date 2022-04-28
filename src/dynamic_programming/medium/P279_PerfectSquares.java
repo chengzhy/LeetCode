@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 完全平方数
- * <a href="https://leetcode-cn.com/problems/perfect-squares/">🔗</a>
+ * <a href="https://leetcode.cn/problems/perfect-squares/">🔗</a>
  *
  * 给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。
  *

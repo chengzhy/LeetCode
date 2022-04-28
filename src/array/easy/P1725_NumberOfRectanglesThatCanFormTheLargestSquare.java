@@ -2,7 +2,7 @@ package array.easy;
 
 /**
  * 可以形成最大正方形的矩形数目
- * <a href="https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/">🔗</a>
+ * <a href="https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square/">🔗</a>
  *
  * 给你一个数组 rectangles ，其中 rectangles[i] = [li, wi] 表示第 i 个矩形的长度为 li 、宽度为 wi 。
  *

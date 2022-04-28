@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * 单词拆分
- * <a href="https://leetcode-cn.com/problems/word-break/">🔗</a>
+ * <a href="https://leetcode.cn/problems/word-break/">🔗</a>
  *
  * 给你一个字符串 s 和一个字符串列表 wordDict 作为字典。请你判断是否可以利用字典中出现的单词拼接出 s 。
  *

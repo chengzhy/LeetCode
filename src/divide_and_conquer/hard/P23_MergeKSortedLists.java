@@ -2,7 +2,7 @@ package divide_and_conquer.hard;
 
 /**
  * 合并K个升序链表
- * <a href="https://leetcode-cn.com/problems/merge-k-sorted-lists/">🔗</a>
+ * <a href="https://leetcode.cn/problems/merge-k-sorted-lists/">🔗</a>
  *
  * 给你一个链表数组，每个链表都已经按升序排列。
  *

@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * 串联所有单词的子串
- * <a href="https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/">🔗</a>
+ * <a href="https://leetcode.cn/problems/substring-with-concatenation-of-all-words/">🔗</a>
  *
  * 给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。
  *

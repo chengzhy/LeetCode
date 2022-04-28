@@ -5,7 +5,7 @@ import java.util.function.IntConsumer;
 
 /**
  * 打印零与奇偶数
- * <a href="https://leetcode-cn.com/problems/print-zero-even-odd/">🔗</a>
+ * <a href="https://leetcode.cn/problems/print-zero-even-odd/">🔗</a>
  *
  * 现有函数 printNumber 可以用一个整数参数调用，并输出该整数到控制台。
  *

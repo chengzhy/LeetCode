@@ -2,7 +2,7 @@ package dynamic_programming.hard;
 
 /**
  * 盈利计划
- * <a href="https://leetcode-cn.com/problems/profitable-schemes/">🔗</a>
+ * <a href="https://leetcode.cn/problems/profitable-schemes/">🔗</a>
  *
  * 集团里有 n 名员工，他们可以完成各种各样的工作创造利润。
  *

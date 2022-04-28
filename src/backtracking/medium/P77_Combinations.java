@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 组合
- * <a href="https://leetcode-cn.com/problems/combinations/">🔗</a>
+ * <a href="https://leetcode.cn/problems/combinations/">🔗</a>
  *
  * 给定两个整数 n 和 k，返回范围 [1, n] 中所有可能的 k 个数的组合。
  *

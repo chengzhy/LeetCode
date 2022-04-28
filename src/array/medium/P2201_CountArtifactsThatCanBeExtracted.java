@@ -2,7 +2,7 @@ package array.medium;
 
 /**
  * 统计可以提取的工件
- * <a href="https://leetcode-cn.com/problems/count-artifacts-that-can-be-extracted/">🔗</a>
+ * <a href="https://leetcode.cn/problems/count-artifacts-that-can-be-extracted/">🔗</a>
  *
  * 存在一个 n x n 大小、下标从 0 开始的网格，网格中埋着一些工件。给你一个整数 n 和一个下标从 0 开始的二维整数数组 artifacts ，artifacts 描述了矩形工件的位置，其中 artifacts[i] = [r1i, c1i, r2i, c2i] 表示第 i 个工件在子网格中的填埋情况：
  *

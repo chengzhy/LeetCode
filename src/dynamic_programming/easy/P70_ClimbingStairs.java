@@ -2,7 +2,7 @@ package dynamic_programming.easy;
 
 /**
  * 爬楼梯
- * <a href="https://leetcode-cn.com/problems/climbing-stairs/">🔗</a>
+ * <a href="https://leetcode.cn/problems/climbing-stairs/">🔗</a>
  *
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
  *

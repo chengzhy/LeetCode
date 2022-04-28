@@ -2,7 +2,7 @@ package string.medium;
 
 /**
  * 字符串转换整数(atoi)
- * <a href="https://leetcode-cn.com/problems/string-to-integer-atoi/">🔗</a>
+ * <a href="https://leetcode.cn/problems/string-to-integer-atoi/">🔗</a>
  *
  * Implement atoi which converts a string to an integer.
  *

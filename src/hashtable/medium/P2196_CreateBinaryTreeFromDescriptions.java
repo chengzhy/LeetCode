@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * 根据描述创建二叉树
- * <a href="https://leetcode-cn.com/problems/create-binary-tree-from-descriptions/">🔗</a>
+ * <a href="https://leetcode.cn/problems/create-binary-tree-from-descriptions/">🔗</a>
  *
  * 给你一个二维整数数组 descriptions ，其中 descriptions[i] = [parenti, childi, isLefti] 表示 parenti 是 childi 在 二叉树 中的 父节点，二叉树中各节点的值 互不相同 。此外：
  *

@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 二倍数对数组
- * <a href="https://leetcode-cn.com/problems/array-of-doubled-pairs/">🔗</a>
+ * <a href="https://leetcode.cn/problems/array-of-doubled-pairs/">🔗</a>
  *
  * 给定一个长度为偶数的整数数组 arr，只有对 arr 进行重组后可以满足 “对于每个 0 <= i < len(arr) / 2，都有 arr[2 * i + 1] = 2 * arr[2 * i]” 时，返回 true；否则，返回 false。
  *

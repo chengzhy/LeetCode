@@ -5,7 +5,7 @@ import java.util.function.IntConsumer;
 
 /**
  * 交替打印字符串
- * <a href="https://leetcode-cn.com/problems/fizz-buzz-multithreaded/">🔗</a>
+ * <a href="https://leetcode.cn/problems/fizz-buzz-multithreaded/">🔗</a>
  *
  * 编写一个可以从 1 到 n 输出代表这个数字的字符串的程序，但是：
  *

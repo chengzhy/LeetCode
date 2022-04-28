@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * 对称二叉树
- * <a href="https://leetcode-cn.com/problems/symmetric-tree/">🔗</a>
+ * <a href="https://leetcode.cn/problems/symmetric-tree/">🔗</a>
  *
  * 给你一个二叉树的根节点 root ， 检查它是否轴对称。
  *

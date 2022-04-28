@@ -2,7 +2,7 @@ package math.hard;
 
 /**
  * 排列序列
- * <a href="https://leetcode-cn.com/problems/permutation-sequence/">🔗</a>
+ * <a href="https://leetcode.cn/problems/permutation-sequence/">🔗</a>
  *
  * 给出集合 [1,2,3,...,n]，其所有元素共有 n! 种排列。
  *

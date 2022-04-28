@@ -2,7 +2,7 @@ package greedy.medium;
 
 /**
  * 跳跃游戏 II
- * <a href="https://leetcode-cn.com/problems/jump-game-ii/">🔗</a>
+ * <a href="https://leetcode.cn/problems/jump-game-ii/">🔗</a>
  *
  * 给你一个非负整数数组 nums ，你最初位于数组的第一个位置。
  *

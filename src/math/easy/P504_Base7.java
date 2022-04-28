@@ -2,7 +2,7 @@ package math.easy;
 
 /**
  * 七进制数
- * <a href="https://leetcode-cn.com/problems/base-7/">🔗</a>
+ * <a href="https://leetcode.cn/problems/base-7/">🔗</a>
  *
  * 给定一个整数 num，将其转化为 7 进制，并以字符串形式输出。
  *

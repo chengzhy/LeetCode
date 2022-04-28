@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 零钱兑换 II
- * <a href="https://leetcode-cn.com/problems/coin-change-2/">🔗</a>
+ * <a href="https://leetcode.cn/problems/coin-change-2/">🔗</a>
  *
  * 给你一个整数数组 coins 表示不同面额的硬币，另给一个整数 amount 表示总金额。
  *

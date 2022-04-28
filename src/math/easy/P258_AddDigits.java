@@ -2,7 +2,7 @@ package math.easy;
 
 /**
  * 各位相加
- * <a href="https://leetcode-cn.com/problems/add-digits/">🔗</a>
+ * <a href="https://leetcode.cn/problems/add-digits/">🔗</a>
  *
  * 给定一个非负整数 num，反复将各个位上的数字相加，直到结果为一位数。返回这个结果。
  *

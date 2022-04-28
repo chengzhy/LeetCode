@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 子集
- * <a href="https://leetcode-cn.com/problems/subsets/">🔗</a>
+ * <a href="https://leetcode.cn/problems/subsets/">🔗</a>
  *
  * 给你一个整数数组 nums ，数组中的元素 互不相同 。返回该数组所有可能的子集（幂集）。
  *

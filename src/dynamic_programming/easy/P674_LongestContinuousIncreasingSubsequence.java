@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 最长连续递增序列
- * <a href="https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/">🔗</a>
+ * <a href="https://leetcode.cn/problems/longest-continuous-increasing-subsequence/">🔗</a>
  *
  * 给定一个未经排序的整数数组，找到最长且 连续递增的子序列，并返回该序列的长度。
  *

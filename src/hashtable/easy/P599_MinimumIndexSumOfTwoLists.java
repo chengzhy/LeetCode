@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * 两个列表的最小索引总和
- * <a href="https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/">🔗</a>
+ * <a href="https://leetcode.cn/problems/minimum-index-sum-of-two-lists/">🔗</a>
  *
  * 假设 Andy 和 Doris 想在晚餐时选择一家餐厅，并且他们都有一个表示最喜爱餐厅的列表，每个餐厅的名字用字符串表示。
  *

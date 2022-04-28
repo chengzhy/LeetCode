@@ -2,7 +2,7 @@ package dynamic_programming.medium;
 
 /**
  * 删除并获得点数
- * <a href="https://leetcode-cn.com/problems/delete-and-earn/">🔗</a>
+ * <a href="https://leetcode.cn/problems/delete-and-earn/">🔗</a>
  *
  * 给你一个整数数组 nums ，你可以对它进行一些操作。
  *

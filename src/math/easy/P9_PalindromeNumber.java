@@ -2,7 +2,7 @@ package math.easy;
 
 /**
  * 回文数
- * <a href="https://leetcode-cn.com/problems/palindrome-number/">🔗</a>
+ * <a href="https://leetcode.cn/problems/palindrome-number/">🔗</a>
  *
  * Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
  *

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 加一
- * <a href="https://leetcode-cn.com/problems/plus-one/">🔗</a>
+ * <a href="https://leetcode.cn/problems/plus-one/">🔗</a>
  *
  * 给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。
  *

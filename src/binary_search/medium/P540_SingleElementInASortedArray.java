@@ -2,7 +2,7 @@ package binary_search.medium;
 
 /**
  * 有序数组中的单一元素
- * <a href="https://leetcode-cn.com/problems/single-element-in-a-sorted-array/">🔗</a>
+ * <a href="https://leetcode.cn/problems/single-element-in-a-sorted-array/">🔗</a>
  *
  * 给你一个仅由整数组成的有序数组，其中每个元素都会出现两次，唯有一个数只会出现一次。
  *

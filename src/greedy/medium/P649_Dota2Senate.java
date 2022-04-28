@@ -2,7 +2,7 @@ package greedy.medium;
 
 /**
  * Dota2 参议院
- * <a href="https://leetcode-cn.com/problems/dota2-senate/">🔗</a>
+ * <a href="https://leetcode.cn/problems/dota2-senate/">🔗</a>
  *
  * Dota2 的世界里有两个阵营：Radiant(天辉)和 Dire(夜魇)
  *

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Excel 表中某个范围内的单元格
- * <a href="https://leetcode-cn.com/problems/cells-in-a-range-on-an-excel-sheet/">🔗</a>
+ * <a href="https://leetcode.cn/problems/cells-in-a-range-on-an-excel-sheet/">🔗</a>
  *
  * Excel 表中的一个单元格 (r, c) 会以字符串 "<col><row>" 的形式进行表示，其中：
  *

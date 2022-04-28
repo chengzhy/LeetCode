@@ -2,7 +2,7 @@ package backtracking.medium;
 
 /**
  * 统计按位或能得到最大值的子集数目
- * <a href="https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/">🔗</a>
+ * <a href="https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/">🔗</a>
  *
  * 给你一个整数数组 nums ，请你找出 nums 子集 按位或 可能得到的 最大值 ，并返回按位或能得到最大值的 不同非空子集的数目 。
  *

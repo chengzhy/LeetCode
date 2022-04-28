@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 设计位集
- * <a href="https://leetcode-cn.com/problems/design-bitset/">🔗</a>
+ * <a href="https://leetcode.cn/problems/design-bitset/">🔗</a>
  *
  * 位集 Bitset 是一种能以紧凑形式存储位的数据结构。
  *
